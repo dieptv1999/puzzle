@@ -1,0 +1,1 @@
+export {Crosswords as default} from './crosswords';

@@ -1,0 +1,1 @@
+export {RowWords as default} from './row_words';
