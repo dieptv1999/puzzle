@@ -5,6 +5,7 @@
   align-items: center;
   padding: 4rem 6rem;
   min-height: 100vh;
+  background-image: url("/2283711-02.png");
 }
 
 .description {
@@ -104,6 +105,12 @@
 /*  filter: blur(45px);*/
 /*  transform: translateZ(0);*/
 /*}*/
+.logoContainer {
+  padding: 0.3rem 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+}
 
 .logo,
 .thirteen {
