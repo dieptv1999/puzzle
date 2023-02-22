@@ -32,18 +32,18 @@ const Question = memo(({question, next, setFinish, complete, onStart}: any) => {
                     className="border-4 h-[60px] w-[60px] rounded-full border-red-600 flex items-center justify-center text-3xl text-white">
                     {question.key}
                 </div>
-                <div className="flex-1 overflow-hidden">
+                <div className="flex-1 overflow-hidden mx-6">
                     <AnimatePresence>
                         <motion.div
                             key={question.key}
-                            className="text-2xl text-center text-white"
+                            className="text-3xl text-center text-white font-semibold"
                             variants={item}
                         >
                             {question.value}
                         </motion.div>
                     </AnimatePresence>
                 </div>
-                <div className="flex items-center space-x-6">
+                <div className="flex items-center space-x-6 text-white text-2xl">
                     {start ? <CountdownCircleTimer
                             isPlaying
                             duration={20}

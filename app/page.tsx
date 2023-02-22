@@ -12,6 +12,7 @@ import {useWindowSize} from "react-use";
 import Confetti from 'react-confetti'
 import { AnimatePresence } from 'framer-motion';
 import Modal from '@/components/modal/modal';
+import useSound from "use-sound";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -337,6 +338,7 @@ export default function Home() {
       team5: 0,
       team6: 0,
   });
+  const [play] = useSound('/approved-mission-205.wav');
   const [showALlNumber, setShowAllNumber] = useState(0);
 
   const questions = [
@@ -387,6 +389,7 @@ export default function Home() {
         }))
       })))
     }
+    play();
   }
 
   const close = () => setModalOpen(false);
@@ -429,7 +432,7 @@ export default function Home() {
       {/*<div className="">*/}
       {/*  <Flashcards points={points}/>*/}
       {/*</div>*/}
-      <div className="w-full">
+      <div className="w-full mt-20">
           <Question
             question={question >= 0 ? questions[question] : null}
             complete={() => setAllowClick(true)}
@@ -475,6 +478,7 @@ export default function Home() {
                          };
                        } else return r;
                      }))
+                     play();
                    }}
               >
                 Hiển thị
