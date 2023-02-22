@@ -400,12 +400,12 @@ export default function Home() {
           <p>
             Trò chơi ô chữ
           </p>
-          <p
-            className="cursor-pointer hover:bg-red-400 active:text-white hover:text-white active:bg-red-600"
-            onClick={() => (modalOpen ? close() : open())}
-          >
-            Nhập điểm
-          </p>
+          {/*<p*/}
+          {/*  className="cursor-pointer hover:bg-red-400 active:text-white hover:text-white active:bg-red-600"*/}
+          {/*  onClick={() => (modalOpen ? close() : open())}*/}
+          {/*>*/}
+          {/*  Nhập điểm*/}
+          {/*</p>*/}
         </div>
         <div className={styles.logoContainer}>
           <Link
@@ -426,9 +426,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="">
-        <Flashcards points={points}/>
-      </div>
+      {/*<div className="">*/}
+      {/*  <Flashcards points={points}/>*/}
+      {/*</div>*/}
       <div className="w-full">
           <Question
             question={question >= 0 ? questions[question] : null}

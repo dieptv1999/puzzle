@@ -1,10 +1,12 @@
 import {AnimatePresence, motion} from "framer-motion";
 import {CountdownCircleTimer} from 'react-countdown-circle-timer'
-import {useEffect, useState} from "react";
+import {memo, useEffect, useState} from "react";
+import useSound from "use-sound";
 
-const Question = ({question, next, setFinish, complete, onStart}: any) => {
+const Question = memo(({question, next, setFinish, complete, onStart}: any) => {
     const [time, setTime] = useState(1);
     const [start, setStart] = useState(false);
+    const [play, { stop }] = useSound("/igm_short_loop.mp3");
 
     useEffect(() => {
         setStart(false);
@@ -50,7 +52,10 @@ const Question = ({question, next, setFinish, complete, onStart}: any) => {
                             colorsTime={[7, 5, 2, 0]}
                             strokeWidth={5}
                             size={80}
-                            onComplete={complete}
+                            onComplete={() => {
+                                stop();
+                                complete();
+                            }}
                         >
                             {({remainingTime}) => remainingTime}
                         </CountdownCircleTimer>
@@ -58,6 +63,8 @@ const Question = ({question, next, setFinish, complete, onStart}: any) => {
                             onClick={() => {
                                 setTime(time + 1);
                                 setStart(true);
+                                // onStart();
+                                play();
                             }}
                             className="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border
                         border-white-500 hover:border-transparent rounded cursor-pointer"
@@ -68,6 +75,9 @@ const Question = ({question, next, setFinish, complete, onStart}: any) => {
     } else {
         return <div className="h-[80px]"/>;
     }
-}
+//    @ts-ignore
+}, (prevProps: any, nextProps: any) => {
+    return prevProps.question == nextProps.question;
+})
 
 export default Question;

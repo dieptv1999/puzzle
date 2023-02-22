@@ -28,6 +28,7 @@ export function Cell({
       <motion.div
         style={{ display: "inline-block" }}
         variants={item}
+        animate={word.visible ? "visible" : "hidden"}
       >
         {word.value}
       </motion.div>
