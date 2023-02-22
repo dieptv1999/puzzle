@@ -323,9 +323,9 @@ export default function Home() {
     },
   ]);
   const {width, height} = useWindowSize();
-  const [question, setQuestion] = useState(0);
+  const [question, setQuestion] = useState(-1);
   const [congrat, setCongrat] = useState(false);
-  const [start, setStart] = useState(false);
+  const [allowClick, setAllowClick] = useState(true);
   const [finish, setFinish] = useState(false);
   const [team, setTeam] = useState<any>(null);
   const [modalOpen, setModalOpen] = useState(false);
@@ -337,6 +337,7 @@ export default function Home() {
       team5: 0,
       team6: 0,
   });
+  const [showALlNumber, setShowAllNumber] = useState(0);
 
   const questions = [
     {
@@ -366,14 +367,26 @@ export default function Home() {
   ];
 
   function showAll() {
-    setRows(rows.map(r => ({
-      ...r,
-      visible: true,
-      words: r.words.map(w => ({
-        ...w,
+    if (showALlNumber === 0) {
+      setRows(rows.map(r => ({
+        ...r,
+        visible: false,
+        words: r.words.map((w, idx) => ({
+          ...w,
+          visible: r.positionResult === idx ? true: w.visible,
+        }))
+      })))
+      setShowAllNumber(1);
+    } else if (showALlNumber === 1) {
+      setRows(rows.map(r => ({
+        ...r,
         visible: true,
-      }))
-    })))
+        words: r.words.map(w => ({
+          ...w,
+          visible: true,
+        }))
+      })))
+    }
   }
 
   const close = () => setModalOpen(false);
@@ -394,7 +407,7 @@ export default function Home() {
             Nhập điểm
           </p>
         </div>
-        <div>
+        <div className={styles.logoContainer}>
           <Link
             href=""
             rel="noopener noreferrer"
@@ -416,25 +429,23 @@ export default function Home() {
       <div className="">
         <Flashcards points={points}/>
       </div>
-      {start ? <div className="w-full">
+      <div className="w-full">
           <Question
-            question={questions[question]}
-            next={() => {
-              if (question + 1 == questions.length - 1) {
-                setTimeout(() => {
-                  setFinish(true);
-                }, 20 * 1000)
-              }
-              if (question < questions.length - 1)
-                setQuestion(question + 1)
-            }}
+            question={question >= 0 ? questions[question] : null}
+            complete={() => setAllowClick(true)}
+            onStart={() => setAllowClick(false)}
+            // next={() => {
+            //   if (question + 1 == questions.length - 1) {
+            //     setTimeout(() => {
+            //       setFinish(true);
+            //     }, 20 * 1000)
+            //   }
+            //   if (question < questions.length - 1)
+            //     setQuestion(question + 1)
+            // }}
             setFinish={setFinish}
           />
-        </div> :
-        <div
-          onClick={() => setStart(true)}
-          className={`bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-3xl`}
-        >Bắt đầu</div>}
+        </div>
 
       <div className="w-full flex flex-col items-center relative">
         <div className={styles.center}>
@@ -442,15 +453,15 @@ export default function Home() {
         </div>
         <div
           onClick={showAll}
-          className={`h-[46px] w-[350px] flex justify-center items-center cursor-pointer my-[2px]
-              bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded`}>
+          className={`h-[46px] w-[350px] flex justify-center items-center cursor-pointer my-[2px] text-white
+              bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded`}>
           Hiển thị đáp án
         </div>
         <div className="absolute right-0 top-0 h-full flex flex-col justify-center pb-[46px]">
           {rows.map((row, index) => {
             return (
               <div className="h-[46px] flex justify-center items-center cursor-pointer my-[2px]
-              bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                    onClick={() => {
                      setRows(rows.map((r, idx) => {
                        if (index === idx) {
@@ -468,6 +479,22 @@ export default function Home() {
               >
                 Hiển thị
               </div>
+            )
+          })}
+        </div>
+        <div className="absolute left-0 top-0 h-full flex flex-col justify-center pb-[46px]">
+          {rows.map((row, index) => {
+            return (
+                <div className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px] ${question === index ? 'bg-blue-500 border-white' : 'border-gray-500'}
+                  bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border hover:border-transparent rounded-full`}
+                     onClick={() => {
+                       if (allowClick && question !== index) {
+                         setQuestion(index);
+                       }
+                     }}
+                >
+                  {index + 1}
+                </div>
             )
           })}
         </div>
