@@ -10,11 +10,12 @@ import {useState} from "react";
 import Question from "@/components/question/question";
 import {useWindowSize} from "react-use";
 import Confetti from 'react-confetti'
-import { AnimatePresence } from 'framer-motion';
+import {AnimatePresence} from 'framer-motion';
 import Modal from '@/components/modal/modal';
 import useSound from "use-sound";
+import ModalPoint from "@/components/modal/modal_point";
 
-const inter = Inter({subsets: ['latin']})
+// const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   const [rows, setRows] = useState([
@@ -330,13 +331,14 @@ export default function Home() {
   const [finish, setFinish] = useState(false);
   const [team, setTeam] = useState<any>(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [modalPointOpen, setModalPointOpen] = useState(false);
   const [points, setPoints] = useState({
-      team1: 0,
-      team2: 0,
-      team3: 0,
-      team4: 0,
-      team5: 0,
-      team6: 0,
+    team1: 0,
+    team2: 0,
+    team3: 0,
+    team4: 0,
+    team5: 0,
+    team6: 0,
   });
   const [play] = useSound('/approved-mission-205.wav');
   const [showALlNumber, setShowAllNumber] = useState(0);
@@ -375,7 +377,7 @@ export default function Home() {
         visible: false,
         words: r.words.map((w, idx) => ({
           ...w,
-          visible: r.positionResult === idx ? true: w.visible,
+          visible: r.positionResult === idx ? true : w.visible,
         }))
       })))
       setShowAllNumber(1);
@@ -403,12 +405,22 @@ export default function Home() {
           <p>
             Trò chơi ô chữ
           </p>
-          {/*<p*/}
-          {/*  className="cursor-pointer hover:bg-red-400 active:text-white hover:text-white active:bg-red-600"*/}
-          {/*  onClick={() => (modalOpen ? close() : open())}*/}
-          {/*>*/}
-          {/*  Nhập điểm*/}
-          {/*</p>*/}
+          <p
+            className="cursor-pointer hover:bg-red-400 active:text-white hover:text-white active:bg-red-600"
+            onClick={() => (modalOpen ? close() : open())}
+          >
+            Nhập điểm
+          </p>
+          <p
+            className="cursor-pointer hover:bg-red-400 active:text-white hover:text-white active:bg-red-600"
+            onClick={() => {
+              if (modalPointOpen) {
+                setModalPointOpen(false);
+              } else setModalPointOpen(true);
+            }}
+          >
+            Xem điểm
+          </p>
         </div>
         <div className={styles.logoContainer}>
           <Link
@@ -418,7 +430,7 @@ export default function Home() {
             Phát triển bởi{' '}
             <Image
               src="/vcc_logo.png"
-              alt="Vercel Logo"
+              alt="VCC Logo"
               className={styles.vercelLogo}
               objectFit={'contain'}
               width={100}
@@ -433,22 +445,22 @@ export default function Home() {
       {/*  <Flashcards points={points}/>*/}
       {/*</div>*/}
       <div className="w-full mt-20">
-          <Question
-            question={question >= 0 ? questions[question] : null}
-            complete={() => setAllowClick(true)}
-            onStart={() => setAllowClick(false)}
-            // next={() => {
-            //   if (question + 1 == questions.length - 1) {
-            //     setTimeout(() => {
-            //       setFinish(true);
-            //     }, 20 * 1000)
-            //   }
-            //   if (question < questions.length - 1)
-            //     setQuestion(question + 1)
-            // }}
-            setFinish={setFinish}
-          />
-        </div>
+        <Question
+          question={question >= 0 ? questions[question] : null}
+          complete={() => setAllowClick(true)}
+          onStart={() => setAllowClick(false)}
+          // next={() => {
+          //   if (question + 1 == questions.length - 1) {
+          //     setTimeout(() => {
+          //       setFinish(true);
+          //     }, 20 * 1000)
+          //   }
+          //   if (question < questions.length - 1)
+          //     setQuestion(question + 1)
+          // }}
+          setFinish={setFinish}
+        />
+      </div>
 
       <div className="w-full flex flex-col items-center relative">
         <div className={styles.center}>
@@ -489,16 +501,17 @@ export default function Home() {
         <div className="absolute left-0 top-0 h-full flex flex-col justify-center pb-[46px]">
           {rows.map((row, index) => {
             return (
-                <div className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px] ${question === index ? 'bg-blue-500 border-white' : 'border-gray-500'}
+              <div
+                className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px] ${question === index ? 'bg-blue-500 border-white' : 'border-gray-500'}
                   bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border hover:border-transparent rounded-full`}
-                     onClick={() => {
-                       if (allowClick && question !== index) {
-                         setQuestion(index);
-                       }
-                     }}
-                >
-                  {index + 1}
-                </div>
+                onClick={() => {
+                  if (allowClick && question !== index) {
+                    setQuestion(index);
+                  }
+                }}
+              >
+                {index + 1}
+              </div>
             )
           })}
         </div>
@@ -549,7 +562,25 @@ export default function Home() {
           handleClose={close}
           config={[5, 2, 20 - question]}
           points={points}
-          setPoints={ setPoints}
+          setPoints={setPoints}
+        />}
+      </AnimatePresence>
+
+      <AnimatePresence
+        // Disable any initial animations on children that
+        // are present when the component is first rendered
+        initial={false}
+        // Only render one component at a time.
+        // The exiting component will finish its exit
+        // animation before entering component is rendered
+        exitBeforeEnter={true}
+        // Fires when all exiting nodes have completed animating out
+        onExitComplete={() => null}
+      >
+        {modalPointOpen && <ModalPoint
+          modalOpen={modalPointOpen}
+          handleClose={() => setModalPointOpen(false)}
+          points={points}
         />}
       </AnimatePresence>
     </main>

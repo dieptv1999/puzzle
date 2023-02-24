@@ -2,7 +2,7 @@
 import React, {useRef, useEffect, useState} from 'react';
 import {motion} from 'framer-motion';
 
-const cards = [1, 2, 3, 4, 5];
+const cards = [1, 2, 3, 4, 5, 6];
 const cardVariants = {
   selected: {
     rotateY: 180,
