@@ -5,7 +5,9 @@
   align-items: center;
   padding: 4rem 6rem;
   min-height: 100vh;
-  background-image: url("/2283711-02.png");
+  background-image: url("/blurry.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .description {

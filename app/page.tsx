@@ -324,12 +324,9 @@ export default function Home() {
       visible: false,
     },
   ]);
-  const {width, height} = useWindowSize();
   const [question, setQuestion] = useState(-1);
-  const [congrat, setCongrat] = useState(false);
   const [allowClick, setAllowClick] = useState(true);
   const [finish, setFinish] = useState(false);
-  const [team, setTeam] = useState<any>(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalPointOpen, setModalPointOpen] = useState(false);
   const [points, setPoints] = useState({
@@ -502,7 +499,7 @@ export default function Home() {
           {rows.map((row, index) => {
             return (
               <div
-                className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px] ${question === index ? 'bg-blue-500 border-white' : 'border-gray-500'}
+                className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px] border-2 ${question === index ? 'bg-blue-500 border-red-600' : 'border-white'}
                   bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border hover:border-transparent rounded-full`}
                 onClick={() => {
                   if (allowClick && question !== index) {
@@ -515,36 +512,7 @@ export default function Home() {
             )
           })}
         </div>
-        {finish && <div className="absolute left-0 top-0 h-full flex flex-col justify-center pb-[46px]
-      flex justify-center">
-          <div className="text-3xl font-bold">Đội chiến thắng là đội</div>
-          <input
-            className="border rounded my-2 text-2xl p-2 w-28"
-            type={'number'}
-            max={6}
-            onChange={e => setTeam(e.target.value)}
-          />
-          <div
-            className={`flex justify-center items-center cursor-pointer my-[2px] text-2xl
-              bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded`}
-            onClick={() => {
-              if (team) {
-                setCongrat(true);
-              }
-            }}
-          >Chúc mừng đội chiến thắng
-          </div>
-        </div>}
       </div>
-      {congrat && <div
-        className="absolute h-full w-full left-0 top-0 bg-black bg-opacity-70 text-white text-7xl flex items-center justify-center">
-        Chúc mừng đội {team}
-      </div>}
-      {congrat && <Confetti
-        width={width}
-        height={height}
-      >
-      </Confetti>}
 
       <AnimatePresence
         // Disable any initial animations on children that
