@@ -1,7 +1,7 @@
 import {RowModel} from "@/model/row";
 import Cell from "@/components/cell";
 import {memo} from "react";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
 export const RowWords = memo(({row}: { row: RowModel }) => {
 
@@ -11,16 +11,15 @@ export const RowWords = memo(({row}: { row: RowModel }) => {
     visible: {
       transition: {
         staggerChildren: 0.025
-      }
-    }
+      },
+    },
   };
 
   return (
     <motion.div
-      className="flex"
+      className="flex text-white"
       initial="hidden"
-      // animate="visible"
-      animate={row.visible ? "visible" : "hidden"}
+      animate={row.visible != null ? row.visible ? "visible" : "hidden" : 'hidden'}
       variants={container}
     >
       {words.map((word, index) => <Cell

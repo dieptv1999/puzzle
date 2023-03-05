@@ -1,6 +1,7 @@
 import {motion} from "framer-motion";
 import Backdrop from "./backdrop";
 import {Formik} from 'formik';
+import styles from './modal.module.css';
 
 const dropIn = {
   hidden: {
@@ -30,7 +31,7 @@ const Modal = ({handleClose, text, config, points, setPoints}: any) => {
     <Backdrop onClick={handleClose}>
       <motion.div
         onClick={(e) => e.stopPropagation()}
-        className="modal orange-gradient"
+        className={`modal orange-gradient ${styles.modalCustom} z-20`}
         variants={dropIn}
         initial="hidden"
         animate="visible"
@@ -57,7 +58,7 @@ const Modal = ({handleClose, text, config, points, setPoints}: any) => {
                 isSubmitting,
                 /* and other goodies */
               }) => (
-              <form onSubmit={handleSubmit} className="flex flex-col items-center">
+              <form onSubmit={handleSubmit} className="flex flex-col items-center my-2">
                 <div className="flex items-center space-x-4 my-2 font-semibold">
                   <div>Điểm team 1</div>
                   <input

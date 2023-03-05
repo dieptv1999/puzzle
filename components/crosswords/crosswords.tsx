@@ -14,7 +14,8 @@ export function Crosswords({
     left: 0,
     right: 0,
     center: 0,
-  })
+  });
+  const [splash, setSplash] = useState(true);
 
   useEffect(() => {
     calculateWidth();
@@ -32,19 +33,21 @@ export function Crosswords({
       center: maxLeft,
       right: maxRight,
     })
+    setTimeout(() => {
+      setSplash(false);
+    }, 500);
   }
 
   function paddingLeftRow(keyIndex: number) {
-    console.log(config, keyIndex)
     return config.left - keyIndex;
   }
 
   return (
-    <div className="flex flex-col w-full">
+    <div className={`${splash ? 'invisible' : 'flex'} flex-col w-full`}>
       {rows?.map(row => {
         return (<div className={``}
                      style={{
-                       paddingLeft: paddingLeftRow(row.positionResult) * cellWidth
+                       marginLeft: paddingLeftRow(row.positionResult) * cellWidth
                      }}
         >
 

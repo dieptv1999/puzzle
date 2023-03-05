@@ -6,11 +6,11 @@ import Crosswords from "@/components/crosswords";
 import Link from "next/link";
 // @ts-ignore
 import Flashcards from '../components/flashcard';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import Question from "@/components/question/question";
 import {useWindowSize} from "react-use";
 import Confetti from 'react-confetti'
-import {AnimatePresence} from 'framer-motion';
+import {AnimatePresence, motion} from 'framer-motion';
 import Modal from '@/components/modal/modal';
 import useSound from "use-sound";
 import ModalPoint from "@/components/modal/modal_point";
@@ -339,6 +339,7 @@ export default function Home() {
   });
   const [play] = useSound('/approved-mission-205.wav');
   const [showALlNumber, setShowAllNumber] = useState(0);
+  const [splash, setSplash] = useState(true);
 
   const questions = [
     {
@@ -394,6 +395,12 @@ export default function Home() {
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
 
+  useEffect(() => {
+    setTimeout(() => {
+      setSplash(false);
+    }, 1000);
+  }, []);
+
   // @ts-ignore
   return (
     <main className={styles.main}>
@@ -426,7 +433,7 @@ export default function Home() {
           >
             Phát triển bởi{' '}
             <Image
-              src="/vcc_logo.png"
+              src="/vcc_logo.png?v=1"
               alt="VCC Logo"
               className={styles.vercelLogo}
               objectFit={'contain'}
@@ -551,6 +558,30 @@ export default function Home() {
           points={points}
         />}
       </AnimatePresence>
+
+      {/*{splash ?*/}
+      {/*  <AnimatePresence>*/}
+      {/*    <motion.div*/}
+      {/*      className="fixed top-0 left-0 h-full w-full bg-white"*/}
+      {/*      initial={{opacity: 0}}*/}
+      {/*      animate={{opacity: 1}}*/}
+      {/*      exit={{opacity: 0}}*/}
+      {/*    >*/}
+      {/*      <div className="flex items-center justify-center h-full">*/}
+      {/*        <Image*/}
+      {/*          src="/vcc_logo.png?v=1"*/}
+      {/*          alt="VCC Logo"*/}
+      {/*          className={styles.vercelLogo}*/}
+      {/*          objectFit={'contain'}*/}
+      {/*          width={150}*/}
+      {/*          height={160 / 561 * 233}*/}
+      {/*          priority*/}
+      {/*        />*/}
+      {/*      </div>*/}
+      {/*    </motion.div>*/}
+      {/*  </AnimatePresence>*/}
+      {/*  : <div/>*/}
+      {/*}*/}
     </main>
   )
 }
