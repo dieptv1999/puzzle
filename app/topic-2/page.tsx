@@ -20,52 +20,10 @@ import ModalPoint from "@/components/modal/modal_point";
 export default function Home() {
   const [rows, setRows] = useState([
     {
-      positionResult: 5,
-      words: [
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "E",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    {
       positionResult: 2,
       words: [
         {
-          value: "B",
+          value: "F",
           visible: false,
         },
         {
@@ -73,19 +31,21 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "I",
+          value: "C",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "H",
           visible: false,
         },
         {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "E",
+          value: "O",
           visible: false,
         },
         {
@@ -97,22 +57,30 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "I",
+          value: "O",
           visible: false,
         },
         {
-          value: "A",
+          value: "N",
           visible: false,
-        }
+        },
+        {
+          value: "G",
+          visible: false,
+        },
       ],
       visible: false,
     },
     // ------------------------ dap an 3
     {
-      positionResult: 2,
+      positionResult: 1,
       words: [
         {
-          value: "F",
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "I",
           visible: false,
         },
         {
@@ -120,7 +88,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "E",
+          value: "N",
           visible: false,
         },
         {
@@ -128,11 +96,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "E",
-          visible: false,
-        },
-        {
-          value: "R",
+          value: "O",
           visible: false,
         },
       ],
@@ -140,100 +104,22 @@ export default function Home() {
     },
     // ------------------------ dap an 4
     {
-      positionResult: 3,
+      positionResult: 5,
       words: [
         {
-          value: "N",
+          value: "V",
           visible: false,
         },
         {
-          value: "E",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "M",
-          visible: false,
-        },
-        {
-          value: "O",
+          value: "A",
           visible: false,
         },
         {
           value: "N",
           visible: false,
         },
-        {
-          value: "G",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    //  -------------- dap an 5
-    {
-      positionResult: 0,
-      words: [
         {
           value: "T",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-        {
-          value: "D",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    //  ----------- dap an 6
-    {
-      positionResult: 3,
-      words: [
-        {
-          value: "K",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "O",
           visible: false,
         },
         {
@@ -241,23 +127,19 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "D",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
+          value: "E",
           visible: false,
         },
         {
           value: "T",
+          visible: false,
+        },
+        {
+          value: "L",
+          visible: false,
+        },
+        {
+          value: "U",
           visible: false,
         },
         {
@@ -267,44 +149,9 @@ export default function Home() {
       ],
       visible: false,
     },
-      //  cau hỏi 7
+    //  -------------- dap an 5
     {
-      positionResult: 6,
-      words: [
-        {
-          value: "K",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "B",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-      /// cau hoi 8
-    {
-      positionResult: 4,
+      positionResult: 2,
       words: [
         {
           value: "B",
@@ -312,34 +159,6 @@ export default function Home() {
         },
         {
           value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "S",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "E",
-          visible: false,
-        },
-        {
-          value: "R",
-          visible: false,
-        },
-        {
-          value: "R",
-          visible: false,
-        },
-        {
-          value: "I",
           visible: false,
         },
         {
@@ -350,13 +169,6 @@ export default function Home() {
           value: "G",
           visible: false,
         },
-      ],
-      visible: false,
-    },
-      // cau hoi 9
-    {
-      positionResult: 4,
-      words: [
         {
           value: "T",
           visible: false,
@@ -369,12 +181,168 @@ export default function Home() {
           value: "N",
           visible: false,
         },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 6
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "L",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "P",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 7
+    {
+      positionResult: 3,
+      words: [
+        {
+          value: "K",
+          visible: false,
+        },
+        {
+          value: "Y",
+          visible: false,
+        },
         {
           value: "S",
           visible: false,
         },
         {
+          value: "U",
+          visible: false,
+        },
+        {
+          value: "K",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "U",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  -------------- dap an 8
+    {
+      positionResult: 1,
+      words: [
+        {
+          value: "H",
+          visible: false,
+        },
+        {
           value: "O",
+          visible: false,
+        },
+        {
+          value: "M",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "L",
+          visible: false,
+        },
+        {
+          value: "L",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        }
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 9
+    {
+      positionResult: 1,
+      words: [
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "D",
+          visible: false,
+        },
+        {
+          value: "B",
           visible: false,
         },
       ],
@@ -401,39 +369,39 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Bộ phận trung gian nối liền các thân thang, dùng để nghỉ chân và thay đổi hướng đi?"
+      value: "Từ viết tắt của thành phần cơ khí của bộ thông gió lọc bụi cho nhà trạm là gì?"
     },
     {
       key: "2",
-      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu đảm bảo về mặt kỹ thuật?"
+      value: "Là một cam kết giữa 2 hay nhiều bên (pháp nhân) để làm hoặc không làm một việc nào đó trong khuôn khổ pháp luật?"
     },
     {
       key: "3",
-      value: "Đây là loại cáp thông tin đồng trục, được dùng phổ biến tại các trạm phát sóng vô tuyến BTS hay kết nối Ăng ten với các trạm trung tâm điều hành?"
+      value: "Là mức độ tiến triển của công việc trong một khoản thời gian nhất định?"
     },
     {
       key: "4",
-      value: "Là lớp đất nằm dưới móng, chịu toàn bộ hoặc phần lớn tải trọng của công trình?"
+      value: "Bộ phận đấu nối từ máy bơm ra motor, điều tiết lượng nước cho chổi lau bán tự động trong vệ sinh dàn pin mặt trời?"
     },
     {
       key: "5",
-      value: "Là loại dụng cụ chuyên biệt dùng để chỉnh độ căng của dây cáp."
+      value: "Dải tần số hoạt động của sóng điện từ sử dụng công nghệ không dây được gọi là gì?"
     },
     {
       key: "6",
-      value: "Cần phải đấu nối thêm vào thiết bị nào vào công tắc thông minh thông thường để đóng cắt bình nóng lạnh?"
+      value: "Có hình dáng như giọt nước, để tránh điểm gấp đầu cáp bị bẹp dẫn đến gãy gập hoặc bị mài mòn, gọi là gì?"
     },
     {
       key: "7",
-      value: "Chuỗi hoạt động theo thứ tự được lập trình sẵn trong các thiết bị thông minh trong Smarthome phù hợp với tình huống người sử dụng được gọi là gì?"
+      value: "Nhiệm vụ Tính toán độ bền của các loại vật liệu để đảm bảo sự phù hợp với kết cấu là của ai?"
     },
     {
       key: "8",
-      value: "Chức năng tự động điều khiển kết nối với mạng không dây đến băng tần tốt nhất hiện có, giúp tối ưu hóa hiệu suất cho client?"
+      value: "Tên đầy đủ của thiết bị điều khiển trung tâm trong hệ thống Smarthome?"
     },
     {
       key: "9",
-      value: "Một trong các thông số cần đạt khi hệ thống điện mặt trời hòa lưới điện"
+      value: "Đây là tên gọi của tủ chuyển mạch từ điện lưới hoặc máy phát điện, cấp điện đầu vào cho tủ nguồn DC-mini trong trạm RRU?"
     }
   ];
 
