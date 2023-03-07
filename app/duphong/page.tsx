@@ -27,43 +27,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "H",
+          value: "I",
           visible: false,
         },
         {
@@ -71,29 +35,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "P",
-          visible: false,
-        }
-      ],
-      visible: false,
-    },
-    {
-      positionResult: 6,
-      words: [
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
           value: "U",
-          visible: false,
-        },
-        {
-          value: "O",
           visible: false,
         },
         {
@@ -101,10 +43,6 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "T",
-          visible: false,
-        },
-        {
           value: "H",
           visible: false,
         },
@@ -113,26 +51,38 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "Y",
+          value: "A",
           visible: false,
-        }
+        },
+        {
+          value: "N",
+          visible: false,
+        },
       ],
       visible: false,
     },
-    // ------------------------ dap an 3
+      // cau hoi 2
     {
-      positionResult: 5,
+      positionResult: 3,
       words: [
         {
-          value: "G",
+          value: "D",
           visible: false,
         },
         {
-          value: "I",
+          value: "E",
           visible: false,
         },
         {
-          value: "A",
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "O",
           visible: false,
         },
         {
@@ -144,7 +94,163 @@ export default function Home() {
           visible: false,
         },
         {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "G",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
           value: "I",
+          visible: false,
+        }
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 3
+    {
+      positionResult: 6,
+      words: [
+        {
+          value: "B",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "D",
+          visible: false,
+        },
+        {
+          value: "L",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "K",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 4
+    {
+      positionResult: 3,
+      words: [
+        {
+          value: "K",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "G",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  -------------- dap an 5
+    {
+      positionResult: 4,
+      words: [
+        {
+          value: "K",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "M",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "U",
+          visible: false,
+        },
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 6
+    {
+      positionResult: 4,
+      words: [
+        {
+          value: "K",
+          visible: false,
+        },
+        {
+          value: "H",
           visible: false,
         },
         {
@@ -155,10 +261,60 @@ export default function Home() {
           value: "O",
           visible: false,
         },
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
       ],
       visible: false,
     },
-    // ------------------------ dap an 4
+    // ------------------------ dap an 7
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "M",
+          visible: false,
+        },
+        {
+          value: "S",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  -------------- dap an 8
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "U",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 9
     {
       positionResult: 3,
       words: [
@@ -175,19 +331,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "P",
-          visible: false,
-        },
-        {
           value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "T",
           visible: false,
         },
         {
@@ -195,62 +339,19 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "V",
+          value: "Y",
           visible: false,
         },
         {
-          value: "A",
+          value: "T",
           visible: false,
         },
         {
-          value: "N",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    //  -------------- dap an 5
-    {
-      positionResult: 5,
-      words: [
-        {
-          value: "B",
+          value: "R",
           visible: false,
         },
         {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "V",
-          visible: false,
-        },
-        {
-          value: "E",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "C",
+          value: "U",
           visible: false,
         },
         {
@@ -263,61 +364,6 @@ export default function Home() {
         },
         {
           value: "G",
-          visible: false,
-        }
-      ],
-      visible: false,
-    },
-    //  ----------- dap an 6
-    {
-      positionResult: 5,
-      words: [
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "P",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "D",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "O",
           visible: false,
         },
       ],
