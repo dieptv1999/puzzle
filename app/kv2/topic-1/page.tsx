@@ -643,39 +643,63 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Bộ phận trung gian nối liền các thân thang, dùng để nghỉ chân và thay đổi hướng đi?"
+      value: "Là loại hồ sơ cần thiết và bắt buộc khi công nhân vào công trường xây dựng"
     },
     {
       key: "2",
-      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu đảm bảo về mặt kỹ thuật?"
+      value: "Tìm từ còn thiếu trong câu sau: Cấu tạo chi tiết hệ thống cột anten dây co gồm: Móng cột, móng co, thân cột, dây co, khóa cáp, tăng đơ, ma ni và..."
     },
     {
       key: "3",
-      value: "Đây là loại cáp thông tin đồng trục, được dùng phổ biến tại các trạm phát sóng vô tuyến BTS hay kết nối Ăng ten với các trạm trung tâm điều hành?"
+      value: "Cảm biến nào thường được gắn trần, sử dụng cho giải pháp chiếu sáng WC tự động và cầu thang tự động?"
     },
     {
       key: "4",
-      value: "Là lớp đất nằm dưới móng, chịu toàn bộ hoặc phần lớn tải trọng của công trình?"
+      value: "Đây là hạng mục hạ tầng viễn thông có thể di động được, bao gồm: Xe ôtô cơ sở, thùng xe, thiết bị trạm, hệ thống nguồn phụ trợ"
     },
     {
       key: "5",
-      value: "Là loại dụng cụ chuyên biệt dùng để chỉnh độ căng của dây cáp."
+      value: "Đây là loại tủ tạo từ các thanh tiêu chuẩn có đột lỗ, dùng để đặt các thiết bị mạng như Server, Router, Switch, UPS, bộ lưu trữ...?"
     },
     {
       key: "6",
-      value: "Cần phải đấu nối thêm vào thiết bị nào vào công tắc thông minh thông thường để đóng cắt bình nóng lạnh?"
+      value: "Thiết bị dùng để chuyển đổi nguồn tự động từ nguồn điện chính(điện lưới) sang nguồn dự phòng khi có sự cố được gọi là gì?"
     },
     {
       key: "7",
-      value: "Chuỗi hoạt động theo thứ tự được lập trình sẵn trong các thiết bị thông minh trong Smarthome phù hợp với tình huống người sử dụng được gọi là gì?"
+      value: "Đây là phép đo kiểm giá trị điện trở giữa 2 đối tượng, ví dụ như để xác định mức độ cách điện giữa tấm pin mặt trời và khung giàn pin?"
     },
     {
       key: "8",
-      value: "Chức năng tự động điều khiển kết nối với mạng không dây đến băng tần tốt nhất hiện có, giúp tối ưu hóa hiệu suất cho client?"
+      value: "Công nghệ nào giúp cho camera an ninh kỹ thuật số có thể được cấp nguồn điện thông qua cáp mạng?"
     },
     {
       key: "9",
-      value: "Một trong các thông số cần đạt khi hệ thống điện mặt trời hòa lưới điện"
+      value: "Là các đường nối các vị trí cọc đất trong bãi tiếp địa?"
+    },
+    {
+      key: "10",
+      value: "Đây là ngưỡng giá trị điện áp DC thấp, là giá trị mà điện áp DC giảm đến mức này thì hệ thống nguồn DC sẽ kích hoạt cảnh báo?"
+    },
+    {
+      key: "11",
+      value: "Đây là kết cấu bê tông có tác dụng giữ và điều chỉnh độ thẳng đứng của cột BTS?"
+    },
+    {
+      key: "12",
+      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có găn lan can an toàn"
+    },
+    {
+      key: "13",
+      value: "Là thiết bị được sử dụng đi kèm giàn giáo xây dựng, giúp người lao động có thể di chuyển dễ dàng trên các giàn giáo"
+    },
+    {
+      key: "14",
+      value: "Một trong những yêu cầu kỹ thuật đầu ra của bộ inverter để đảm bảo yêu cầu của EVN về kết nối lưới điện của hệ thống điện mặt trời?"
+    },
+    {
+      key: "15",
+      value: "Trong quy định đấu nối thiết bị trên tủ nguồn DC đối với trạm truy nhập, nhóm các thiết bị truyền dẫn, ATS, Timer, cảnh báo khói, AGG, SHE, EDFA loại 1 port... được phân thành nhóm tải nào?"
     }
   ];
 

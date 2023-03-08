@@ -503,27 +503,51 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Dụng cụ có khả năng kéo dài nhờ lò xo bên trong và được dùng trong xây dựng, đo đạc?"
+      value: "Trong bảo dưỡng máy giặt lồng ngang, bộ phận nào có khả năng bị chùng, hỏng khi máy giặt quay yếu hoặc phát ra âm thanh ồn ào trong quá trình hoạt động?"
     },
     {
       key: "2",
-      value: "Dụng cụ đo chính xác độ nghiêng của mặt phẳng, đo độ thăng bằng khi lắp đặt vật dụng nội thất, đo độ dốc của mặt đường, mặt phẳng nghiêng?"
+      value: "Là trình tự và cách thi công 1 công trình cụ thể từ lúc bắt đầu đến lúc kết thúc và bàn giao công trình?"
     },
     {
       key: "3",
-      value: "Dụng cụ nâng đỡ con người, công cụ cầm tay để thực thi các công việc trong không gian có độ cao so với các mặt nền cơ sở?"
+      value: "Kết nối giám sát giữa các bình ắc quy Lithium sử dụng giao tiếp truyền thông nào?"
     },
     {
       key: "4",
-      value: "Chi phí thí nghiệm chuyên ngành thuộc loại chi phí nào?"
+      value: "Đây là một hệ thống chống rơi ngã, bao gồm các điểm neo cố định và dây cáp giúp cho người lao động làm việc ở trên cao có thể di chuyển dễ dàng trên một khu vực rộng (theo chiều dọc và chiều ngang)"
     },
     {
       key: "5",
-      value: "Khối lượng bộ phận công trình bị che khuất được lập trên:"
+      value: "Là mức độ tiến triển của công việc trong một khoản thời gian nhất định?"
     },
     {
       key: "6",
-      value: "Chi phí chuyển giao công nghệ thuộc loại chi phí nào?"
+      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có găn lan can an toàn"
+    },
+    {
+      key: "7",
+      value: "Là một cam kết giữa 2 hay nhiều bên (pháp nhân) để làm hoặc không làm một việc nào đó trong khuôn khổ pháp luật?"
+    },
+    {
+      key: "8",
+      value: "Bộ phận trung gian nối liền các thân thang, dùng để nghỉ chân và thay đổi hướng đi?"
+    },
+    {
+      key: "9",
+      value: "Tên viết tắt của trung tâm điều hành mạng, giám sát hệ thống và tiếp nhận sự cố, tạo Work Order cho nhân viên kỹ thuật "
+    },
+    {
+      key: "10",
+      value: "Đây là thông số kỹ thuật của tấm pin mặt trời mà nhân viên kỹ thuật phải đo để kiểm xác định chất lượng tấm pin/string pin?"
+    },
+    {
+      key: "11",
+      value: "Chỉ số dùng để đánh giá khả năng dễ chảy của hỗn hợp bê tông dưới tác dụng của trọng lượng bản thân hoặc rung động"
+    },
+    {
+      key: "12",
+      value: "Là lớp đất nằm dưới móng, chịu toàn bộ hoặc phần lớn tải trọng của công trình?"
     }
   ];
 

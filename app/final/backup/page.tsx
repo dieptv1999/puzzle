@@ -465,27 +465,43 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Dụng cụ có khả năng kéo dài nhờ lò xo bên trong và được dùng trong xây dựng, đo đạc?"
+      value: "Chỉ số đặc trưng cơ bản của bê tông nhằm phản ánh khả năng chịu lực của bê tông?"
     },
     {
       key: "2",
-      value: "Dụng cụ đo chính xác độ nghiêng của mặt phẳng, đo độ thăng bằng khi lắp đặt vật dụng nội thất, đo độ dốc của mặt đường, mặt phẳng nghiêng?"
+      value: "Đâu là loại sóng truyền thống chính trong hệ thống VCC SmartHome"
     },
     {
       key: "3",
-      value: "Dụng cụ nâng đỡ con người, công cụ cầm tay để thực thi các công việc trong không gian có độ cao so với các mặt nền cơ sở?"
+      value: "Mạng lưới các điểm phát Wifi, được kết nối với nhau một cách thống nhất và có khả năng phát WiFi trong phạm vi rộng được gọi là gì?"
     },
     {
       key: "4",
-      value: "Chi phí thí nghiệm chuyên ngành thuộc loại chi phí nào?"
+      value: "Thực hiện bảo quản các vị trí ren của bulông, khóa cáp, tăng đơ bằng cách nào?"
     },
     {
       key: "5",
-      value: "Khối lượng bộ phận công trình bị che khuất được lập trên:"
+      value: "Hiện tượng khi tín hiệu phát bị ảnh hưởng bởi các tín hiệu phát xung quanh khác trong môi trường truyền sóng?"
     },
     {
       key: "6",
-      value: "Chi phí chuyển giao công nghệ thuộc loại chi phí nào?"
+      value: "Hình biểu diễn ba chiều của đối tượng lên mặt phẳng hai chiều được gọi là gì?"
+    },
+    {
+      key: "7",
+      value: "Đối với máy tạo ẩm, điều hòa thì sử dụng loại cảm biến nào để thực hiện kết hợp bật tắt thiết bị ?"
+    },
+    {
+      key: "8",
+      value: "Những chỉ dẫn cơ bản, ngắn gọn về các bước xử lý khi có sự cố hỏa hoạn xảy ra, thường được gắn trên tường phòng kho, nhà trạm được gọi là gì? "
+    },
+    {
+      key: "9",
+      value: "Đây là loại chổi lau có motor trợ lực giúp nhân viên kỹ thuật dễ dàng hơn trong việc vệ sinh các tấm pin mặt trời?"
+    },
+    {
+      key: "10",
+      value: "Đây là thiết bị  chuyển đổi nguồn xoay chiều sang nguồn điện một chiều cấp cho tải và nạp ắc quy trong tủ DC-mini "
     }
   ];
 

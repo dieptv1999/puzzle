@@ -384,7 +384,7 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Dây an toàn đang sử dụng để FT trèo cột BTS là loại dây nào?"
+      value: "Dây an toàn đang sử dụng để FT trèo cột BTS là loại dây nào"
     },
     {
       key: "2",
@@ -392,7 +392,7 @@ export default function Home() {
     },
     {
       key: "3",
-      value: "Số tiền mà người sử dụng lao động trả cho người lao động theo thỏa thuận để thực hiện công việc?"
+      value: "Số tiền mà người sử dụng lao động trả cho người lao động theo thỏa thuận để thực hiện công việc."
     },
     {
       key: "4",
@@ -400,23 +400,27 @@ export default function Home() {
     },
     {
       key: "5",
-      value: ""
+      value: "Trong lắp đặt thiết bị Smarthome, kết nối bộ điều khiển trung tâm với Ứng dụng “VCC SMART HOME” bằng cách nào?"
     },
     {
       key: "6",
-      value: "Cần phải đấu nối thêm vào thiết bị nào vào công tắc thông minh thông thường để đóng cắt bình nóng lạnh?"
+      value: "Dụng cụ dùng động cơ máy và dây cáp để nâng vật tư, hàng hóa lên cao hoặc kéo vật di chuyển trên mặt ngang / mặt nghiêng"
     },
     {
       key: "7",
-      value: "Chuỗi hoạt động theo thứ tự được lập trình sẵn trong các thiết bị thông minh trong Smarthome phù hợp với tình huống người sử dụng được gọi là gì?"
+      value: "Nguy cơ nào có thể xảy ra khi người lao động làm việc gần nguồn điện cao áp, vi phạm quy định về khoảng cách an toàn điện"
     },
     {
       key: "8",
-      value: "Chức năng tự động điều khiển kết nối với mạng không dây đến băng tần tốt nhất hiện có, giúp tối ưu hóa hiệu suất cho client?"
+      value: "Là một loại đá nhân tạo, được hình thành bởi việc trộn các thành phần: cốt liệu thô, cốt liệu mịn, chất kết dính,... theo một tỷ lệ nhất định"
     },
     {
       key: "9",
-      value: "Một trong các thông số cần đạt khi hệ thống điện mặt trời hòa lưới điện"
+      value: "Đây là một đặc tính quan trọng của sợi cáp quang, nó ảnh hưởng tới thiết kế hệ thống thông tin quang do mất năng lượng trong quá trình truyền dẫn"
+    },
+    {
+      key: "10",
+      value: "Cách sử dụng nhiều ăng-ten để phát và thu nhận tín hiệu của kết nối không dây?"
     }
   ];
 

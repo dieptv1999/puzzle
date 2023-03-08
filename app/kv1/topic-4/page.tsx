@@ -478,39 +478,51 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Bộ phận trung gian nối liền các thân thang, dùng để nghỉ chân và thay đổi hướng đi?"
+      value: "Đường truyền dữ liệu từ trạm BTS đến thiết bị đầu cuối"
     },
     {
       key: "2",
-      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu đảm bảo về mặt kỹ thuật?"
+      value: "Ngoài sóng truyền thông Zigbee và WiFi, hệ thống VCC SmartHome còn sử dụng loại sóng truyền thông nào nữa"
     },
     {
       key: "3",
-      value: "Đây là loại cáp thông tin đồng trục, được dùng phổ biến tại các trạm phát sóng vô tuyến BTS hay kết nối Ăng ten với các trạm trung tâm điều hành?"
+      value: "Đây là móng bê tông neo dây co với đất nền để giữ cột anten thẳng"
     },
     {
       key: "4",
-      value: "Là lớp đất nằm dưới móng, chịu toàn bộ hoặc phần lớn tải trọng của công trình?"
+      value: "Văn bản pháp lý do cơ quan nhà nước có thẩm quyền cấp cho CĐT để xây mới, sửa chữa, cải tạo và di dời công trình?"
     },
     {
       key: "5",
-      value: "Là loại dụng cụ chuyên biệt dùng để chỉnh độ căng của dây cáp."
+      value: "Tính năng trễ khởi động của tủ nguồn gọi là gì?"
     },
     {
       key: "6",
-      value: "Cần phải đấu nối thêm vào thiết bị nào vào công tắc thông minh thông thường để đóng cắt bình nóng lạnh?"
+      value: "Là một trong những thiết bị dùng để phòng cháy chữa cháy, thường được sử dụng để dập tắt và kiểm soát các đám cháy nhỏ, lẻ."
     },
     {
       key: "7",
-      value: "Chuỗi hoạt động theo thứ tự được lập trình sẵn trong các thiết bị thông minh trong Smarthome phù hợp với tình huống người sử dụng được gọi là gì?"
+      value: "Lớp trạm truy nhập còn được gọi là gì"
     },
     {
       key: "8",
-      value: "Chức năng tự động điều khiển kết nối với mạng không dây đến băng tần tốt nhất hiện có, giúp tối ưu hóa hiệu suất cho client?"
+      value: "Trong bảo dưỡng máy hút mùi, đây là một trong những bộ phận cần vệ sinh cọ rửa, tránh ám mùi"
     },
     {
       key: "9",
-      value: "Một trong các thông số cần đạt khi hệ thống điện mặt trời hòa lưới điện"
+      value: "Thiết bị cắt chống sét lan truyền, hạn chế quá điện áp thoáng qua và bảo vệ phụ tải trong các tủ nguồn được gọi là gì?"
+    },
+    {
+      key: "10",
+      value: "Tên viết tắt của hộp phối quang là gì?"
+    },
+    {
+      key: "11",
+      value: "Dụng cụ làm các hạt phối liệu trong khối bê tông xen kẽ, sắp xếp chặt nhau do lực ma sát bị phá vỡ?"
+    },
+    {
+      key: "12",
+      value: "Loại chất lỏng có tác dụng bôi trơn, làm mát, giảm ma sát, chống mài mòn các chi tiết máy giúp kéo dài tuổi thọ máy phát điện?"
     }
   ];
 

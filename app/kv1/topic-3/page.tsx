@@ -514,40 +514,52 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Bộ phận trung gian nối liền các thân thang, dùng để nghỉ chân và thay đổi hướng đi?"
+      value: "Khối lượng bộ phận công trình bị che khuất được lập trên?"
     },
     {
       key: "2",
-      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu đảm bảo về mặt kỹ thuật?"
+      value: "Đây là loại dụng cụ làm bằng thép, dùng để kết nối giữa móng co và tăng đơ, tạo sức căng dây co giúp cho cột anten đứng vững hơn"
     },
     {
       key: "3",
-      value: "Đây là loại cáp thông tin đồng trục, được dùng phổ biến tại các trạm phát sóng vô tuyến BTS hay kết nối Ăng ten với các trạm trung tâm điều hành?"
+      value: "Đáy bể cáp luôn có bộ phận nào nằm ở giữa?"
     },
     {
       key: "4",
-      value: "Là lớp đất nằm dưới móng, chịu toàn bộ hoặc phần lớn tải trọng của công trình?"
+      value: "Bộ phận quan trọng trong hệ thống chống sét, được đặt tại vị trí cao nhất của tòa nhà, cột BTS."
     },
     {
       key: "5",
-      value: "Là loại dụng cụ chuyên biệt dùng để chỉnh độ căng của dây cáp."
+      value: "Thiết bị mạng máy tính dùng để chuyển các gói dữ liệu qua một liên mạng và đến các đầu cuối, thông qua một tiến trình gọi là \"định tuyến\" là gì?"
     },
     {
       key: "6",
-      value: "Cần phải đấu nối thêm vào thiết bị nào vào công tắc thông minh thông thường để đóng cắt bình nóng lạnh?"
+      value: "Tên một ban trong TCT ban hành đơn giá thi công các công việc"
     },
     {
       key: "7",
-      value: "Chuỗi hoạt động theo thứ tự được lập trình sẵn trong các thiết bị thông minh trong Smarthome phù hợp với tình huống người sử dụng được gọi là gì?"
+      value: "Thiết bị Sensibo dùng để điều khiển thiết bị trong hệ thống VCC SmartHome"
     },
     {
       key: "8",
-      value: "Chức năng tự động điều khiển kết nối với mạng không dây đến băng tần tốt nhất hiện có, giúp tối ưu hóa hiệu suất cho client?"
+      value: "Đối với mảng dịch vụ kỹ thuật KPI nào đang để chỉ tiêu là ≤ 2.5%"
     },
     {
       key: "9",
-      value: "Một trong các thông số cần đạt khi hệ thống điện mặt trời hòa lưới điện"
-    }
+      value: "Đây là tên gọi loại cáp quang treo phi kim loại hay cáp quang khoảng vượt, được sử dụng để đi trên các tuyến đường dây điện lực hoặc kết nối cáp quang ở những khoảng cách xa với dung lượng từ 4 đến 36 sợi quang"
+    },
+    {
+      key: "10",
+      value: "Dụng cụ đo chính xác độ nghiêng của mặt phẳng, đo độ thăng bằng khi lắp đặt vật dụng nội thất, đo độ dốc của mặt đường, mặt phẳng nghiêng?"
+    },
+    {
+      key: "11",
+      value: "Điểm khác biệt lớn nhất trong dịch vụ hỗ trợ SmartHome của VCC so với đối thủ trên thị trường là gì?"
+    },
+    {
+      key: "12",
+      value: "Liên kết giữa dây C50 và dây M50 trong phòng máy là liên kết gì?"
+    },
   ];
 
   function showAll() {

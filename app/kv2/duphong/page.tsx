@@ -20,42 +20,22 @@ import ModalPoint from "@/components/modal/modal_point";
 export default function Home() {
   const [rows, setRows] = useState([
     {
-      positionResult: 4,
+      positionResult: 2,
       words: [
         {
-          value: "T",
+          value: "B",
           visible: false,
         },
         {
-          value: "I",
+          value: "L",
           visible: false,
         },
         {
-          value: "E",
+          value: "V",
           visible: false,
         },
         {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
+          value: "D",
           visible: false,
         },
       ],
@@ -66,43 +46,15 @@ export default function Home() {
       positionResult: 3,
       words: [
         {
-          value: "D",
+          value: "V",
           visible: false,
         },
         {
-          value: "E",
+          value: "S",
           visible: false,
         },
         {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-        {
-          value: "O",
+          value: "M",
           visible: false,
         },
         {
@@ -110,9 +62,13 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "I",
+          value: "R",
           visible: false,
-        }
+        },
+        {
+          value: "T",
+          visible: false,
+        },
       ],
       visible: false,
     },
@@ -121,11 +77,15 @@ export default function Home() {
       positionResult: 6,
       words: [
         {
-          value: "B",
+          value: "X",
           visible: false,
         },
         {
-          value: "R",
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "C",
           visible: false,
         },
         {
@@ -133,42 +93,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "A",
-          visible: false,
-        },
-        {
           value: "D",
-          visible: false,
-        },
-        {
-          value: "L",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "K",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    // ------------------------ dap an 4
-    {
-      positionResult: 3,
-      words: [
-        {
-          value: "K",
-          visible: false,
-        },
-        {
-          value: "H",
           visible: false,
         },
         {
@@ -183,51 +108,19 @@ export default function Home() {
           value: "G",
           visible: false,
         },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
       ],
       visible: false,
     },
-    //  -------------- dap an 5
+    // ------------------------ dap an 4
     {
-      positionResult: 4,
+      positionResult: 6,
       words: [
         {
-          value: "K",
+          value: "D",
           visible: false,
         },
         {
           value: "I",
-          visible: false,
-        },
-        {
-          value: "M",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "S",
           visible: false,
         },
         {
@@ -235,18 +128,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "T",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    //  ----------- dap an 6
-    {
-      positionResult: 4,
-      words: [
-        {
-          value: "K",
+          value: "N",
           visible: false,
         },
         {
@@ -254,7 +136,34 @@ export default function Home() {
           visible: false,
         },
         {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "M",
+          visible: false,
+        },
+        {
           value: "A",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  -------------- dap an 5
+    {
+      positionResult: 1,
+      words: [
+        {
+          value: "N",
           visible: false,
         },
         {
@@ -262,7 +171,50 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "S",
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "Q",
+          visible: false,
+        },
+        {
+          value: "U",
+          visible: false,
+        },
+        {
+          value: "Y",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 6
+    {
+      positionResult: 6,
+      words: [
+        {
+          value: "K",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "D",
+          visible: false,
+        },
+        {
+          value: "O",
           visible: false,
         },
         {
@@ -270,7 +222,11 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "T",
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "H",
           visible: false,
         },
       ],
@@ -281,15 +237,23 @@ export default function Home() {
       positionResult: 0,
       words: [
         {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "B",
+          visible: false,
+        },
+        {
           value: "A",
           visible: false,
         },
         {
-          value: "M",
-          visible: false,
-        },
-        {
-          value: "S",
+          value: "N",
           visible: false,
         },
       ],
@@ -297,45 +261,14 @@ export default function Home() {
     },
     //  -------------- dap an 8
     {
-      positionResult: 0,
+      positionResult: 4,
       words: [
         {
-          value: "C",
+          value: "M",
           visible: false,
         },
         {
-          value: "S",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    //  ----------- dap an 9
-    {
-      positionResult: 3,
-      words: [
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "U",
+          value: "A",
           visible: false,
         },
         {
@@ -347,7 +280,77 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "R",
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 9
+    {
+      positionResult: 5,
+      words: [
+        {
+          value: "M",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "Y",
+          visible: false,
+        },
+        {
+          value: "P",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "D",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 10
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "T",
           visible: false,
         },
         {
@@ -364,6 +367,201 @@ export default function Home() {
         },
         {
           value: "G",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  -------------- dap an 11
+    {
+      positionResult: 7,
+      words: [
+        {
+          value: "D",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "B",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "L",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "D",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "G",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 12
+    {
+      positionResult: 1,
+      words: [
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "U",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 13
+    {
+      positionResult: 4,
+      words: [
+        {
+          value: "B",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "G",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  -------------- dap an 14
+    {
+      positionResult: 4,
+      words: [
+        {
+          value: "X",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "M",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "G",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 15
+    {
+      positionResult: 7,
+      words: [
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "K",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "G",
+          visible: false,
+        },
+        {
+          value: "A",
           visible: false,
         },
       ],
@@ -390,27 +588,63 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Dụng cụ có khả năng kéo dài nhờ lò xo bên trong và được dùng trong xây dựng, đo đạc?"
+      value: "Đây là giá trị ngưỡng điện áp cắt tải ưu tiên để bảo vệ acquy. Khi điện áp DC giảm đến mức này thì hệ thống nguồn DC sẽ ngắt tất cả các tải?"
     },
     {
       key: "2",
-      value: "Dụng cụ đo chính xác độ nghiêng của mặt phẳng, đo độ thăng bằng khi lắp đặt vật dụng nội thất, đo độ dốc của mặt đường, mặt phẳng nghiêng?"
+      value: "Phần mềm nào giúp nhân viên kỹ thuật cập nhập công việc sự cố, công việc triển khai và tra cứu thông tin đường truyền khách hàng?"
     },
     {
       key: "3",
-      value: "Dụng cụ nâng đỡ con người, công cụ cầm tay để thực thi các công việc trong không gian có độ cao so với các mặt nền cơ sở?"
+      value: "Đây là hạng mục hạ tầng viễn thông có thể di động được, bao gồm: Xe ôtô cơ sở, thùng xe, thiết bị trạm, hệ thống nguồn phụ trợ?"
     },
     {
       key: "4",
-      value: "Chi phí thí nghiệm chuyên ngành thuộc loại chi phí nào?"
+      value: "Đây là thông số kỹ thuật của tấm pin mặt trời mà nhân viên kỹ thuật phải đo để kiểm xác định chất lượng tấm pin/string pin?"
     },
     {
       key: "5",
-      value: "Khối lượng bộ phận công trình bị che khuất được lập trên:"
+      value: "Những quy định, tổng hợp mang tính bắt buộc, đòi hỏi nhân sự, người lao động phải tuân thủ?"
     },
     {
       key: "6",
-      value: "Chi phí chuyển giao công nghệ thuộc loại chi phí nào?"
+      value: "Nhân viên kỹ thuật trước khi liên hệ khách hàng để khảo sát cần liên hệ phòng ban nào để tiếp nhận yêu cầu khảo sát và có được thông tin khách hàng?"
+    },
+    {
+      key: "7",
+      value: "Kịch bản Hẹn giờ bật tắt thiết bị nằm trong mục quản lý kịch bản nào trên ứng dụng VCC Home?"
+    },
+    {
+      key: "8",
+      value: "Đây là thiết bị dùng để bảo dưỡng bộ thông gió lọc bụi, điều hòa tại trạm BTS?"
+    },
+    {
+      key: "9",
+      value: "Đây là thiết bị cấp điện dự phòng thay thế lưới điện khi có sự cố trong hệ thống trạm BTS?"
+    },
+    {
+      key: "10",
+      value: "Đây là bộ phận chịu lực theo phương thẳng đứng truyền trực tiếp tải trọng xuống móng, thường rắn chắc xác định và bảo vệ một khu vực."
+    },
+    {
+      key: "11",
+      value: "Đây là những trang thiết bị cần thiết, sử dụng trên một phần hoặc toàn bộ cơ thể người lao động để ngăn chặn các yếu tố có hại và nguy hiểm từ bên ngoài?"
+    },
+    {
+      key: "12",
+      value: "Đây là hiện tượng bất thường và không hay xảy ra trong một quá trình hoạt động nào đó?"
+    },
+    {
+      key: "13",
+      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có găn lan can an toàn"
+    },
+    {
+      key: "14",
+      value: "Là một loại chất kết dính thủy lực, được dùng làm vật liệu xây dựng?"
+    },
+    {
+      key: "15",
+      value: "Một trong những nguyên nhân chính khiến cho điều hòa làm lạnh kém"
     }
   ];
 

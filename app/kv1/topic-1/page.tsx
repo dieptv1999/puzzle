@@ -463,39 +463,51 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Bộ phận trung gian nối liền các thân thang, dùng để nghỉ chân và thay đổi hướng đi?"
+      value: "Đây là một loại cáp viễn thông làm bằng thủy tinh hoặc nhựa, sử dụng ánh sáng để truyền tín hiệu và mạng"
     },
     {
       key: "2",
-      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu đảm bảo về mặt kỹ thuật?"
+      value: "Bộ phận giao thông theo chiều thẳng đứng, nối liền các không gian không cùng cao độ, còn được xem là một bộ phận kết cấu làm việc theo phương ngang là gì?"
     },
     {
       key: "3",
-      value: "Đây là loại cáp thông tin đồng trục, được dùng phổ biến tại các trạm phát sóng vô tuyến BTS hay kết nối Ăng ten với các trạm trung tâm điều hành?"
+      value: "Là bộ phận kết cấu chịu lực bên trên lỗ cửa sổ hoặc cửa đi, có tác dụng đỡ phần tường bên trên?"
     },
     {
       key: "4",
-      value: "Là lớp đất nằm dưới móng, chịu toàn bộ hoặc phần lớn tải trọng của công trình?"
+      value: "Khi thanh toán 100% giá trị đơn hàng về TCT thì trạng thái đơn hàng sẽ chuyển qua trạng thái?"
     },
     {
       key: "5",
-      value: "Là loại dụng cụ chuyên biệt dùng để chỉnh độ căng của dây cáp."
+      value: "Nhân viên Quản lý dịch vụ kỹ thuật được gọi tắt là?"
     },
     {
       key: "6",
-      value: "Cần phải đấu nối thêm vào thiết bị nào vào công tắc thông minh thông thường để đóng cắt bình nóng lạnh?"
+      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS, KPIs thời gian 20 ngày (từ khi triển khai thi công đến khi công trình ĐBHT) áp dụng cho loại hình trạm BTS nào?"
     },
     {
       key: "7",
-      value: "Chuỗi hoạt động theo thứ tự được lập trình sẵn trong các thiết bị thông minh trong Smarthome phù hợp với tình huống người sử dụng được gọi là gì?"
+      value: "Theo quy trình QT.VCC.MK.2.20.5, Hợp đồng thuê vị trí được phê duyệt trên phần mềm nào?"
     },
     {
       key: "8",
-      value: "Chức năng tự động điều khiển kết nối với mạng không dây đến băng tần tốt nhất hiện có, giúp tối ưu hóa hiệu suất cho client?"
+      value: "Thiết bị để chuyên di chuyển, thồ, chở những vật liệu xây dựng như vôi, vữa, gạch, đá?"
     },
     {
       key: "9",
-      value: "Một trong các thông số cần đạt khi hệ thống điện mặt trời hòa lưới điện"
+      value: "Phòng/ban nào thuộc Tổng Công ty thực hiện đối soát vật tư Tổng Công ty xuất ra công trình với các Chi nhánh Công trình Viettel tỉnh/thành phố"
+    },
+    {
+      key: "10",
+      value: "Khoảng thời gian kể từ khi xi măng và cốt liệu trộn với nước đến khi hỗn hợp bê tông đạt cường độ theo quy ước là gì?"
+    },
+    {
+      key: "11",
+      value: "Cột dùng để thu, phát sóng di động, thường dùng trong nghành truyền thông các thiết bị di động mạng viễn thông"
+    },
+    {
+      key: "12",
+      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS trên mái, KPIs thời gian 30 ngày (từ khi triển khai thi công đến khi công trình ĐBHT) áp dụng cho loại hình trạm BTS nào?"
     }
   ];
 

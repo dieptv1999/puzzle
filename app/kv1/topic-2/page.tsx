@@ -515,39 +515,51 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Từ viết tắt của thành phần cơ khí của bộ thông gió lọc bụi cho nhà trạm là gì?"
+      value: "Bộ phận nào trên xe phát sóng cơ động dùng để nâng/hạ xe theo phương thẳng đứng, có tác dụng trợ lực hoặc chịu tải toàn bộ cho các bánh xe?"
     },
     {
       key: "2",
-      value: "Là một cam kết giữa 2 hay nhiều bên (pháp nhân) để làm hoặc không làm một việc nào đó trong khuôn khổ pháp luật?"
+      value: "Chế độ đầu tiên phải kiểm tra sau khi khởi động máy phát điện?"
     },
     {
       key: "3",
-      value: "Là mức độ tiến triển của công việc trong một khoản thời gian nhất định?"
+      value: "Dụng cụ nâng đỡ con người, công cụ cầm tay để thực thi các công việc trong không gian có độ cao so với các mặt nền cơ sở?"
     },
     {
       key: "4",
-      value: "Bộ phận đấu nối từ máy bơm ra motor, điều tiết lượng nước cho chổi lau bán tự động trong vệ sinh dàn pin mặt trời?"
+      value: "Trong hệ thống điện mặt trời, đây là thiết bị chuyển đổi dòng điện 1 chiều thành dòng điện xoay chiều"
     },
     {
       key: "5",
-      value: "Dải tần số hoạt động của sóng điện từ sử dụng công nghệ không dây được gọi là gì?"
+      value: "Đây là ngưỡng điện áp cắt cho tải không ưu tiên. Khi điện áp DC giảm đến mức này thì hệ thống nguồn DC sẽ ngắt các tải không ưu tiên?"
     },
     {
       key: "6",
-      value: "Có hình dáng như giọt nước, để tránh điểm gấp đầu cáp bị bẹp dẫn đến gãy gập hoặc bị mài mòn, gọi là gì?"
+      value: "Dụng cụ đựng vật liệu như xi măng, hồ tô…?"
     },
     {
       key: "7",
-      value: "Nhiệm vụ Tính toán độ bền của các loại vật liệu để đảm bảo sự phù hợp với kết cấu là của ai?"
+      value: "Thiết bị lắp trên cột BTS cao trên 45m để cảnh báo về đêm gọi là gì? "
     },
     {
       key: "8",
-      value: "Tên đầy đủ của thiết bị điều khiển trung tâm trong hệ thống Smarthome?"
+      value: "Trong ba nhu cầu sử dụng Smarthome: hiển thị, điều khiển, giám sát. Đâu là nhu cầu bắt buộc phải có?"
     },
     {
       key: "9",
-      value: "Đây là tên gọi của tủ chuyển mạch từ điện lưới hoặc máy phát điện, cấp điện đầu vào cho tủ nguồn DC-mini trong trạm RRU?"
+      value: "Điền từ còn thiếu trong câu sau: \" Trong triển khai lắp dựng cột anten, khóa cáp phải lắp đặt đúng chủng loại, đúng vị trí,....., đủ số lượng.\""
+    },
+    {
+      key: "10",
+      value: "Một trong những yêu cầu kỹ thuật cho inverter hệ thống điện mặt trời cấp cho lưới điện ba pha?"
+    },
+    {
+      key: "11",
+      value: "Card giám sát tủ nguồn Emerson/Agisson/ZTE do Công ty TNHH MTV Thông tin M1 cung cấp được gọi là gì?"
+    },
+    {
+      key: "12",
+      value: "Công tác cấp nước cho quá trình thủy hóa của xi măng, đảm bảo kết cấu không bị nứt, phát triển cường độ là công tác gì?"
     }
   ];
 
