@@ -218,7 +218,7 @@ export default function Home() {
     },
       //  cau hỏi 7
     {
-      positionResult: 3,
+      positionResult: 0,
       words: [
         {
           value: "I",
