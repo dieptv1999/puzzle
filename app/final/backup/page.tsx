@@ -469,7 +469,7 @@ export default function Home() {
     },
     {
       key: "2",
-      value: "Đâu là loại sóng truyền thống chính trong hệ thống VCC SmartHome"
+      value: "Đâu là loại sóng truyền thông chính kết nối các thiết bị với nhau trong hệ thống VCC SmartHome"
     },
     {
       key: "3",

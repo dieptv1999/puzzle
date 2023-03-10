@@ -201,22 +201,6 @@ export default function Home() {
           value: "O",
           visible: false,
         },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
       ],
       visible: false,
     },
@@ -319,6 +303,10 @@ export default function Home() {
           visible: false,
         },
         {
+          value: "D",
+          visible: false,
+        },
+        {
           value: "S",
           visible: false,
         },
@@ -405,7 +393,7 @@ export default function Home() {
     },
     {
       key: "2",
-      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu đảm bảo về mặt kỹ thuật?"
+      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu để đảm bảo chống sét?"
     },
     {
       key: "3",

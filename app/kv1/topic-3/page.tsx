@@ -534,7 +534,7 @@ export default function Home() {
     },
     {
       key: "6",
-      value: "Tên một ban trong TCT ban hành đơn giá thi công các công việc"
+      value: "Tên một Ban trong Tổng công ty ban hành tỷ lệ/đơn giá thi công các công việc"
     },
     {
       key: "7",

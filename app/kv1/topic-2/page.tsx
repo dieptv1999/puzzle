@@ -343,61 +343,6 @@ export default function Home() {
       positionResult: 3,
       words: [
         {
-          value: "D",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "E",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    // ------------------------ dap an 10
-    {
-      positionResult: 0,
-      words: [
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
           value: "B",
           visible: false,
         },
@@ -414,15 +359,34 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "P",
-          visible: false,
-        },
-        {
-          value: "H",
+          value: "T",
           visible: false,
         },
         {
           value: "A",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 10
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "U",
           visible: false,
         },
       ],
@@ -547,11 +511,11 @@ export default function Home() {
     },
     {
       key: "9",
-      value: "Điền từ còn thiếu trong câu sau: \" Trong triển khai lắp dựng cột anten, khóa cáp phải lắp đặt đúng chủng loại, đúng vị trí,....., đủ số lượng.\""
+      value: "Dải tần số của sóng điện từ được sử dụng để thu, phát các tín hiệu liên lạc giữa các thiết bị sử dụng công nghệ không dây được gọi là gì?"
     },
     {
       key: "10",
-      value: "Một trong những yêu cầu kỹ thuật cho inverter hệ thống điện mặt trời cấp cho lưới điện ba pha?"
+      value: "Đây là chữ viết tắt của bộ giám sát điều khiển tủ nguồn DC-mini?"
     },
     {
       key: "11",

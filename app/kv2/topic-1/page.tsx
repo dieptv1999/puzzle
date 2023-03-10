@@ -82,26 +82,22 @@ export default function Home() {
       visible: false,
     },
     {
-      positionResult: 1,
+      positionResult: 0,
       words: [
-        {
-          value: "B",
-          visible: false,
-        },
         {
           value: "A",
           visible: false,
         },
         {
-          value: "N",
+          value: "C",
           visible: false,
         },
         {
-          value: "O",
+          value: "D",
           visible: false,
         },
         {
-          value: "P",
+          value: "B",
           visible: false,
         },
       ],
@@ -647,7 +643,7 @@ export default function Home() {
     },
     {
       key: "2",
-      value: "Tìm từ còn thiếu trong câu sau: Cấu tạo chi tiết hệ thống cột anten dây co gồm: Móng cột, móng co, thân cột, dây co, khóa cáp, tăng đơ, ma ni và..."
+      value: "Đây là tên gọi của tủ chuyển mạch từ điện lưới hoặc máy phát điện, cấp điện đầu vào cho tủ nguồn DC-mini trong trạm RRU?"
     },
     {
       key: "3",

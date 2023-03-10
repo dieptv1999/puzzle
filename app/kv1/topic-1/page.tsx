@@ -475,7 +475,7 @@ export default function Home() {
     },
     {
       key: "4",
-      value: "Khi thanh toán 100% giá trị đơn hàng về TCT thì trạng thái đơn hàng sẽ chuyển qua trạng thái?"
+      value: "Khi thanh toán 100% giá trị đơn hàng về Tổng công ty thì trạng thái đơn hàng sẽ chuyển qua trạng thái?"
     },
     {
       key: "5",
@@ -483,7 +483,7 @@ export default function Home() {
     },
     {
       key: "6",
-      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS, KPIs thời gian 20 ngày (từ khi triển khai thi công đến khi công trình ĐBHT) áp dụng cho loại hình trạm BTS nào?"
+      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS, KPIs thời gian 20 ngày (từ khi triển khai thi công đến khi công trình đồng bộ hạ tầng) áp dụng cho loại hình trạm BTS nào?"
     },
     {
       key: "7",
@@ -503,7 +503,7 @@ export default function Home() {
     },
     {
       key: "11",
-      value: "Cột dùng để thu, phát sóng di động, thường dùng trong nghành truyền thông các thiết bị di động mạng viễn thông"
+      value: "Hệ thống thu, phát sóng di động, thường dùng trong ngành truyền thông các thiết bị di động mạng viễn thông"
     },
     {
       key: "12",
