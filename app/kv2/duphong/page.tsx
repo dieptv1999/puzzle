@@ -636,7 +636,7 @@ export default function Home() {
     },
     {
       key: "13",
-      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có găn lan can an toàn"
+      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có gắn lan can an toàn"
     },
     {
       key: "14",
