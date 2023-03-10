@@ -486,7 +486,7 @@ export default function Home() {
     },
     {
       key: "3",
-      value: "Đây là móng bê tông neo dây co với đất nền để giữ cột anten thẳng"
+      value: "Đây là kết cấu bê tông liên kết với các tầng dây co có tác dụng cố định cột anten trạm BTS"
     },
     {
       key: "4",
