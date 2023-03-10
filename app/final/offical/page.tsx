@@ -400,7 +400,7 @@ export default function Home() {
     },
     {
       key: "5",
-      value: "Trong lắp đặt thiết bị Smarthome, kết nối bộ điều khiển trung tâm với Ứng dụng “VCC SMART HOME” bằng cách nào?"
+      value: "Trong lắp đặt thiết bị Smarthome, kết nối bộ điều khiển trung tâm với Ứng dụng “AIO SMART HOME” bằng cách nào?"
     },
     {
       key: "6",
