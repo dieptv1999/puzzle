@@ -687,7 +687,7 @@ export default function Home() {
     },
     {
       key: "13",
-      value: "Là thiết bị được sử dụng đi kèm giàn giáo xây dựng, giúp người lao động có thể di chuyển dễ dàng trên các giàn giáo"
+      value: "Là bộ phận thuộc kết cấu giàn giáo xây dựng, giúp người lao động có thể di chuyển dễ dàng trên các giàn giáo"
     },
     {
       key: "14",
