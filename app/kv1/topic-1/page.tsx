@@ -507,7 +507,7 @@ export default function Home() {
     },
     {
       key: "12",
-      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS trên mái, KPIs thời gian 30 ngày (từ khi triển khai thi công đến khi công trình ĐBHT) áp dụng cho loại hình trạm BTS nào?"
+      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS trên mái, KPIs thời gian 30 ngày (từ khi triển khai thi công đến khi công trình đồng bộ hạ tầng) áp dụng cho loại hình trạm BTS nào?"
     }
   ];
 
