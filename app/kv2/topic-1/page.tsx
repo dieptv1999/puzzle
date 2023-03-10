@@ -679,7 +679,7 @@ export default function Home() {
     },
     {
       key: "11",
-      value: "Đây là kết cấu bê tông có tác dụng giữ và điều chỉnh độ thẳng đứng của cột BTS?"
+      value: "Đây là kết cấu bê tông liên kết với các tầng dây co có tác dụng giữ cố định cột anten trạm BTS?"
     },
     {
       key: "12",
