@@ -691,7 +691,7 @@ export default function Home() {
     },
     {
       key: "14",
-      value: "Một trong những thông số kỹ thuật đầu ra của bộ inverter cần đạt được theo yêu cầu của EVN về kết nối lưới điện của hệ thống điện mặt trời?"
+      value: "Một trong những thông số kỹ thuật đầu ra của bộ inverter cần đạt được theo yêu cầu của EVN về kết nối hệ thống điện mặt trời với lưới điện?"
     },
     {
       key: "15",
