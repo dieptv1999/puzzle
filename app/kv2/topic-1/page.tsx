@@ -683,7 +683,7 @@ export default function Home() {
     },
     {
       key: "12",
-      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có găn lan can an toàn"
+      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có gắn lan can an toàn"
     },
     {
       key: "13",
@@ -691,7 +691,7 @@ export default function Home() {
     },
     {
       key: "14",
-      value: "Một trong những yêu cầu kỹ thuật đầu ra của bộ inverter để đảm bảo yêu cầu của EVN về kết nối lưới điện của hệ thống điện mặt trời?"
+      value: "Một trong những thông số kỹ thuật đầu ra của bộ inverter cần đạt được theo yêu cầu của EVN về kết nối lưới điện của hệ thống điện mặt trời?"
     },
     {
       key: "15",
