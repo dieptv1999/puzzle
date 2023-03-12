@@ -95,6 +95,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+body {
+  background-image: url("/bg_11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  //filter: blur(4px);
+  //-webkit-filter: blur(4px);
+}
+
 a {
   color: inherit;
   text-decoration: none;
