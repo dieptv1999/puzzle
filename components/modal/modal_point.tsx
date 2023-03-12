@@ -29,7 +29,7 @@ const dropIn = {
 };
 
 
-const ModalPoint = ({handleClose, points}: any) => {
+const ModalPoint = ({handleClose, points, numberOfTeam = 6}: any) => {
   const [congrat, setCongrat] = useState(false);
   const [team, setTeam] = useState<any>(null);
   const {width, height} = useWindowSize();
@@ -48,7 +48,7 @@ const ModalPoint = ({handleClose, points}: any) => {
       >
         <div>
           <div className="">
-            <Flashcards points={points}/>
+            <Flashcards points={points} numberOfTeam={numberOfTeam}/>
           </div>
           <div className="flex flex-col justify-center
       flex justify-center">
@@ -56,7 +56,7 @@ const ModalPoint = ({handleClose, points}: any) => {
             <input
               className="border rounded my-2 text-2xl p-2 w-28"
               type={'number'}
-              max={6}
+              max={numberOfTeam || 100}
               onChange={e => setTeam(e.target.value)}
             />
             {team && <div

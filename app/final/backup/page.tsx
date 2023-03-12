@@ -679,6 +679,7 @@ export default function Home() {
             config={[5, 2, 20 - question]}
             points={points}
             setPoints={setPoints}
+            numberOfTeam={10}
             />}
             </AnimatePresence>
 
@@ -697,6 +698,7 @@ export default function Home() {
             modalOpen={modalPointOpen}
             handleClose={() => setModalPointOpen(false)}
             points={points}
+            numberOfTeam={10}
             />}
             </AnimatePresence>
 

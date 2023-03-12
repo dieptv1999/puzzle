@@ -61,7 +61,7 @@ export default function Home() {
       ],
       visible: false,
     },
-      // cau hoi 2
+    // cau hoi 2
     {
       positionResult: 3,
       words: [
@@ -382,6 +382,9 @@ export default function Home() {
     team4: 0,
     team5: 0,
     team6: 0,
+    team7: 0,
+    team8: 0,
+    team9: 0,
   });
   const [play] = useSound('/approved-mission-205.wav');
   const [showALlNumber, setShowAllNumber] = useState(0);
@@ -551,87 +554,89 @@ export default function Home() {
               </div>
             )
           })}
-            </div>
-            <div className="absolute left-0 top-0 h-full flex flex-col justify-center pb-[46px]">
+        </div>
+        <div className="absolute left-0 top-0 h-full flex flex-col justify-center pb-[46px]">
           {rows.map((row, index) => {
             return (
-            <div
-            className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px] border-2 ${question === index ? 'bg-blue-500 border-red-600' : 'border-white'}
+              <div
+                className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px] border-2 ${question === index ? 'bg-blue-500 border-red-600' : 'border-white'}
                   bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border hover:border-transparent rounded-full`}
-            onClick={() => {
-            if (allowClick && question !== index) {
-            setQuestion(index);
-          }
-          }}
-            >
-          {index + 1}
-            </div>
+                onClick={() => {
+                  if (allowClick && question !== index) {
+                    setQuestion(index);
+                  }
+                }}
+              >
+                {index + 1}
+              </div>
             )
           })}
-            </div>
-            </div>
+        </div>
+      </div>
 
-            <AnimatePresence
-            // Disable any initial animations on children that
-            // are present when the component is first rendered
-            initial={false}
-            // Only render one component at a time.
-            // The exiting component will finish its exit
-            // animation before entering component is rendered
-            exitBeforeEnter={true}
-            // Fires when all exiting nodes have completed animating out
-            onExitComplete={() => null}
-            >
-          {modalOpen && <Modal
-            modalOpen={modalOpen}
-            handleClose={close}
-            config={[5, 2, 20 - question]}
-            points={points}
-            setPoints={setPoints}
-            />}
-            </AnimatePresence>
+      <AnimatePresence
+        // Disable any initial animations on children that
+        // are present when the component is first rendered
+        initial={false}
+        // Only render one component at a time.
+        // The exiting component will finish its exit
+        // animation before entering component is rendered
+        exitBeforeEnter={true}
+        // Fires when all exiting nodes have completed animating out
+        onExitComplete={() => null}
+      >
+        {modalOpen && <Modal
+          modalOpen={modalOpen}
+          handleClose={close}
+          config={[5, 2, 20 - question]}
+          points={points}
+          setPoints={setPoints}
+          numberOfTeam={9}
+        />}
+      </AnimatePresence>
 
-            <AnimatePresence
-            // Disable any initial animations on children that
-            // are present when the component is first rendered
-            initial={false}
-            // Only render one component at a time.
-            // The exiting component will finish its exit
-            // animation before entering component is rendered
-            exitBeforeEnter={true}
-            // Fires when all exiting nodes have completed animating out
-            onExitComplete={() => null}
-            >
-          {modalPointOpen && <ModalPoint
-            modalOpen={modalPointOpen}
-            handleClose={() => setModalPointOpen(false)}
-            points={points}
-            />}
-            </AnimatePresence>
+      <AnimatePresence
+        // Disable any initial animations on children that
+        // are present when the component is first rendered
+        initial={false}
+        // Only render one component at a time.
+        // The exiting component will finish its exit
+        // animation before entering component is rendered
+        exitBeforeEnter={true}
+        // Fires when all exiting nodes have completed animating out
+        onExitComplete={() => null}
+      >
+        {modalPointOpen && <ModalPoint
+          modalOpen={modalPointOpen}
+          handleClose={() => setModalPointOpen(false)}
+          points={points}
+          numberOfTeam={9}
+        />}
+      </AnimatePresence>
 
-          {/*{splash ?*/}
-          {/*  <AnimatePresence>*/}
-          {/*    <motion.div*/}
-          {/*      className="fixed top-0 left-0 h-full w-full bg-white"*/}
-          {/*      initial={{opacity: 0}}*/}
-          {/*      animate={{opacity: 1}}*/}
-          {/*      exit={{opacity: 0}}*/}
-          {/*    >*/}
-          {/*      <div className="flex items-center justify-center h-full">*/}
-          {/*        <Image*/}
-          {/*          src="/vcc_logo.png?v=1"*/}
-          {/*          alt="VCC Logo"*/}
-          {/*          className={styles.vercelLogo}*/}
-          {/*          objectFit={'contain'}*/}
-          {/*          width={150}*/}
-          {/*          height={160 / 561 * 233}*/}
-          {/*          priority*/}
-          {/*        />*/}
-          {/*      </div>*/}
-          {/*    </motion.div>*/}
-          {/*  </AnimatePresence>*/}
-          {/*  : <div/>*/}
-          {/*}*/}
-            </main>
-            )
-            }
+      {/*{splash ?*/}
+      {/*  <AnimatePresence>*/}
+      {/*    <motion.div*/}
+      {/*      className="fixed top-0 left-0 h-full w-full bg-white"*/}
+      {/*      initial={{opacity: 0}}*/}
+      {/*      animate={{opacity: 1}}*/}
+      {/*      exit={{opacity: 0}}*/}
+      {/*    >*/}
+      {/*      <div className="flex items-center justify-center h-full">*/}
+      {/*        <Image*/}
+      {/*          src="/vcc_logo.png?v=1"*/}
+      {/*          alt="VCC Logo"*/}
+      {/*          className={styles.vercelLogo}*/}
+      {/*          objectFit={'contain'}*/}
+      {/*          width={150}*/}
+      {/*          height={160 / 561 * 233}*/}
+      {/*          priority*/}
+      {/*        />*/}
+      {/*      </div>*/}
+      {/*    </motion.div>*/}
+      {/*  </AnimatePresence>*/}
+      {/*  : <div/>*/}
+      {/*}*/}
+    </main>
+  )
+}
