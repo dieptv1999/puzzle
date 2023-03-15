@@ -506,7 +506,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="w-full flex flex-col items-center relative max-w-screen-lg">
+      <div className="w-full flex flex-col items-center relative max-w-screen-xl">
         <div className={styles.center}>
           <Crosswords rows={rows}/>
         </div>
