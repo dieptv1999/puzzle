@@ -28,7 +28,7 @@ const Question = memo(({question, next, setFinish, complete, onStart}: any) => {
 
   if (question) {
     return (
-      <div className="flex justify-between w-full items-center space-x-4 h-[80px]">
+      <div className="flex justify-between w-full items-center space-x-4 h-[90px]">
         <div
           className="border-4 h-[60px] w-[60px] rounded-full border-red-600 flex items-center justify-center text-3xl text-white">
           {question.key}
@@ -37,7 +37,7 @@ const Question = memo(({question, next, setFinish, complete, onStart}: any) => {
           <AnimatePresence>
             <motion.div
               key={question.key}
-              className="text-3xl text-center text-white font-semibold"
+              className="text-3xl 2xl:text-4xl text-center text-white font-semibold leading-7"
               variants={item}
             >
               {question.value}
