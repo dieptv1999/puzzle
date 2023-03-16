@@ -649,7 +649,7 @@ export default function Home() {
     },
     {
       key: "15",
-      value: "Đây là bộ phận bám cặn cần phải vệ sinh trong bảo dưỡng lồng ngang"
+      value: "Đây là bộ phận quan trọng cần phải vệ sinh trong bảo dưỡng máy giặt lồng ngang"
     }
   ];
 
