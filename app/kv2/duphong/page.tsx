@@ -74,30 +74,10 @@ export default function Home() {
     },
     // ------------------------ dap an 3
     {
-      positionResult: 6,
+      positionResult: 1,
       words: [
         {
-          value: "X",
-          visible: false,
-        },
-        {
-          value: "E",
-          visible: false,
-        },
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "D",
-          visible: false,
-        },
-        {
-          value: "O",
+          value: "I",
           visible: false,
         },
         {
@@ -105,7 +85,27 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "G",
+          value: "V",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "R",
           visible: false,
         },
       ],
@@ -601,7 +601,7 @@ export default function Home() {
     },
     {
       key: "3",
-      value: "Đây là hạng mục hạ tầng viễn thông có thể di động được, bao gồm: Xe ôtô cơ sở, thùng xe, thiết bị trạm, hệ thống nguồn phụ trợ?"
+      value: "Trong hệ thống điện mặt trời, đây là thiết bị chuyển đổi dòng điện 1 chiều thành dòng điện xoay chiều"
     },
     {
       key: "4",
