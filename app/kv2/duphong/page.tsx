@@ -526,10 +526,10 @@ export default function Home() {
     },
     //  ----------- dap an 15
     {
-      positionResult: 7,
+      positionResult: 3,
       words: [
         {
-          value: "R",
+          value: "L",
           visible: false,
         },
         {
@@ -537,23 +537,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "R",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "K",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "I",
+          value: "N",
           visible: false,
         },
         {
@@ -561,7 +545,19 @@ export default function Home() {
           visible: false,
         },
         {
+          value: "G",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
           value: "A",
+          visible: false,
+        },
+        {
+          value: "T",
           visible: false,
         },
       ],
@@ -653,7 +649,7 @@ export default function Home() {
     },
     {
       key: "15",
-      value: "Một trong những nguyên nhân chính khiến cho điều hòa làm lạnh kém"
+      value: "Đây là bộ phận bám cặn cần phải vệ sinh trong bảo dưỡng lồng ngang"
     }
   ];
 
