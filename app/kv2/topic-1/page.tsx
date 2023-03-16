@@ -672,7 +672,7 @@ export default function Home() {
     },
     {
       key: "7",
-      value: "Đây là phép đo kiểm giá trị điện trở giữa 2 đối tượng, ví dụ như để xác định mức độ cách điện giữa tấm pin mặt trời và khung giàn pin?"
+      value: "Đây là thông số xác định mức độ cách điện giữa hai đối tượng, ví dụ như giữa tấm pin mặt trời và khung giàn pin?"
     },
     {
       key: "8",
