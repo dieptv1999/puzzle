@@ -420,7 +420,7 @@ export default function Home() {
     },
     //  ----------- dap an 12
     {
-      positionResult: 6,
+      positionResult: 3,
       words: [
         {
           value: "B",
@@ -435,19 +435,19 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "C",
+          value: "G",
           visible: false,
         },
         {
-          value: "O",
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "A",
           visible: false,
         },
         {
           value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
           visible: false,
         },
       ],
@@ -692,7 +692,7 @@ export default function Home() {
     },
     {
       key: "12",
-      value: "Đây là một kiến trúc trong ngôi nhà hay tòa nhà , một không gian theo chiều ngang được nhô ra và nối liền với một bức tường trước một cánh cửa và thường có gắn lan can an toàn"
+      value: "Dải tần số của sóng điện từ được sử dụng để thu, phát các tín hiệu liên lạc giữa các thiết bị sử dụng công nghệ không dây được gọi là gì?"
     },
     {
       key: "13",
