@@ -393,27 +393,39 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Dụng cụ có khả năng kéo dài nhờ lò xo bên trong và được dùng trong xây dựng, đo đạc?"
+      value: "Văn bản mang tính chất khuyến nghị, khuyến cáo, tự nguyện áp dụng?"
     },
     {
       key: "2",
-      value: "Dụng cụ đo chính xác độ nghiêng của mặt phẳng, đo độ thăng bằng khi lắp đặt vật dụng nội thất, đo độ dốc của mặt đường, mặt phẳng nghiêng?"
+      value: "Phần linh kiện nào có khả năng bị hỏng,cháy trong camera khi camera gặp lỗi có vùng bị thiếu sáng hoặc đen vào buổi tối?"
     },
     {
       key: "3",
-      value: "Dụng cụ nâng đỡ con người, công cụ cầm tay để thực thi các công việc trong không gian có độ cao so với các mặt nền cơ sở?"
+      value: "Điều khiển hồng ngoại đang sử dụng thiết bị của hãng nào kết hợp vào hệ thống VCC Smart Home để điều khiển thiết bị quạt với tivi?"
     },
     {
       key: "4",
-      value: "Chi phí thí nghiệm chuyên ngành thuộc loại chi phí nào?"
+      value: "Chế độ đầu tiên phải kiểm tra sau khi khởi động máy phát điện?"
     },
     {
       key: "5",
-      value: "Khối lượng bộ phận công trình bị che khuất được lập trên:"
+      value: "Bộ phận quan trọng trong hệ thống chống sét, được đặt tại vị trí cao nhất của tòa nhà, cột BTS."
     },
     {
       key: "6",
-      value: "Chi phí chuyển giao công nghệ thuộc loại chi phí nào?"
+      value: "Hoạt động thu thập các \"điều kiện có\" của mặt bằng dự kiến xây dựng trạm trước khi triển khai thiết kế bản vẽ thi công"
+    },
+    {
+      key: "7",
+      value: "Người dùng có thể xác nhận tài sản cá nhân trên máy tính PC bằng phần mềm nào ?"
+    },
+    {
+      key: "8",
+      value: "Đây là chữ viết tắt của bộ giám sát điều khiển tủ nguồn DC-mini?"
+    },
+    {
+      key: "9",
+      value: "Người tổ chức quán triệt, phổ biến, đào tạo cho CBNV, tổ đội thi công về nội quy, quy định, biện pháp thi công và các vấn đề về an toàn lao động, vệ sinh môi trường?"
     }
   ];
 
