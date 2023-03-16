@@ -396,7 +396,7 @@ export default function Home() {
     },
     {
       key: "2",
-      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối trực tiếp vào đâu để đảm bảo chống sét?"
+      value: "Tủ nguồn tích hợp AC trong nhà trạm nên được đấu nối vào hệ thống nào bên ngoài nhà trạm để đảm bảo chống sét?"
     },
     {
       key: "3",
