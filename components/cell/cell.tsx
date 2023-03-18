@@ -27,7 +27,7 @@ export function Cell({
 
   return (
     <div className={`h-[50px] w-[50px] flex items-center justify-center overflow-hidden
-    font-semibold text-black bg-white border ${active ? 'bg-yellow-400' : ''}`}>
+    font-semibold text-black bg-white text-xl border ${active ? 'bg-yellow-400' : ''}`}>
       <motion.div
         style={{ display: "inline-block" }}
         variants={item}
