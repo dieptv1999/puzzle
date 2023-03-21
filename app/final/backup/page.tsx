@@ -417,10 +417,10 @@ export default function Home() {
           value: "T",
           visible: false,
         },
-        {
-          value: "T",
-          visible: false,
-        },
+        // {
+        //   value: "T",
+        //   visible: false,
+        // },
         {
           value: "I",
           visible: false,
