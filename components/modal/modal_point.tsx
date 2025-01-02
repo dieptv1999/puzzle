@@ -29,7 +29,7 @@ const dropIn = {
 };
 
 
-const ModalPoint = ({handleClose, points, numberOfTeam = 6}: any) => {
+const ModalPoint = ({handleClose, points, numberOfTeam = 9}: any) => {
   const [congrat, setCongrat] = useState(false);
   const [team, setTeam] = useState<any>(null);
   const {width, height} = useWindowSize();
@@ -50,8 +50,7 @@ const ModalPoint = ({handleClose, points, numberOfTeam = 6}: any) => {
           <div className="">
             <Flashcards points={points} numberOfTeam={numberOfTeam}/>
           </div>
-          <div className="flex flex-col justify-center
-      flex justify-center">
+          <div className="flex flex-col justify-center">
             <div className="text-xl font-bold">Đội chiến thắng là đội</div>
             <input
               className="border rounded my-2 text-2xl p-2 w-28"

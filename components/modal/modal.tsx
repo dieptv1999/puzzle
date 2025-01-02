@@ -26,7 +26,7 @@ const dropIn = {
 };
 
 
-const Modal = ({handleClose, text, config, points, setPoints, numberOfTeam = 6}: any) => {
+const Modal = ({handleClose, text, config, points, setPoints, numberOfTeam = 9}: any) => {
 
   return (
     <Backdrop onClick={handleClose}>
