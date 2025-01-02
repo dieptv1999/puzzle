@@ -33,11 +33,11 @@ const Question = memo(({question, next, setFinish, complete, onStart}: any) => {
           className="border-4 h-[60px] w-[60px] rounded-full border-red-600 flex items-center justify-center text-3xl text-white">
           {question.key}
         </div>
-        <div className="flex-1 overflow-hidden mx-6">
+        <div className="flex-1 overflow-hidden mx-6 flex justify-center">
           <AnimatePresence>
             <motion.div
               key={question.key}
-              className="text-3xl 2xl:text-4xl text-center text-white font-semibold leading-7"
+              className="text-3xl 2xl:text-4xl text-center text-white font-semibold leading-7 max-w-screen-md"
               variants={item}
             >
               {question.value}
