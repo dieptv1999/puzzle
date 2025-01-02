@@ -20,329 +20,26 @@ import ModalPoint from "@/components/modal/modal_point";
 export default function Home() {
   const [rows, setRows] = useState([
     {
-      positionResult: 3,
-      words: [
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "P",
-          visible: false,
-        },
-        {
-          value: "Q",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    // cau hoi 2
-    {
-      positionResult: 2,
-      words: [
-        {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    // ------------------------ dap an 3
-    {
-      positionResult: 1,
-      words: [
-        {
-          value: "L",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    // ------------------------ dap an 4
-    {
-      positionResult: 3,
-      words: [
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    //  -------------- dap an 5
-    {
-      positionResult: 3,
-      words: [
-        {
-          value: "B",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "F",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "3",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    //  ----------- dap an 6
-    {
-      positionResult: 1,
-      words: [
-        {
-          value: "R",
-          visible: false,
-        },
-        {
-          value: "R",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-      //  cau hỏi 7
-    {
       positionResult: 0,
       words: [
         {
-          value: "I",
+          value: "C",
           visible: false,
         },
         {
-          value: "M",
+          value: "H",
           visible: false,
         },
         {
-          value: "S",
+          value: "U",
           visible: false,
         },
-      ],
-      visible: false,
-    },
-      /// cau hoi 8
-    {
-      positionResult: 2,
-      words: [
         {
-          value: "X",
+          value: "Y",
           visible: false,
         },
         {
           value: "E",
-          visible: false,
-        },
-        {
-          value: "R",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-      // cau hoi 9
-    {
-      positionResult: 6,
-      words: [
-        {
-          value: "P",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "N",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-        {
-          value: "M",
-          visible: false,
-        },
-        {
-          value: "U",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "S",
-          visible: false,
-        },
-        {
-          value: "A",
-          visible: false,
-        },
-        {
-          value: "M",
-          visible: false,
-        },
-      ],
-      visible: false,
-    },
-    // cau hoi 10
-    {
-      positionResult: 5,
-      words: [
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "H",
-          visible: false,
-        },
-        {
-          value: "O",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "G",
-          visible: false,
-        },
-        {
-          value: "I",
-          visible: false,
-        },
-        {
-          value: "A",
           visible: false,
         },
         {
@@ -358,11 +55,297 @@ export default function Home() {
           visible: false,
         },
         {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // cau hoi 2
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "P",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 3
+    {
+      positionResult: 0,
+      words: [
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
           value: "N",
           visible: false,
         },
         {
           value: "G",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "N",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    // ------------------------ dap an 4
+    {
+      positionResult: 1,
+      words: [
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "Y",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "S",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "Y",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "H",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  -------------- dap an 5
+    {
+      positionResult: 10,
+      words: [
+        {
+          value: "8",
+          visible: false,
+        },
+        {
+          value: "G",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "R",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "C",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "T",
+          visible: false,
+        },
+        {
+          value: "L",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+    //  ----------- dap an 6
+    {
+      positionResult: 3,
+      words: [
+        {
+          value: "H",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "U",
+          visible: false,
+        },
+        {
+          value: "Q",
+          visible: false,
+        },
+        {
+          value: "U",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+      ],
+      visible: false,
+    },
+      //  cau hỏi 7
+    {
+      positionResult: 1,
+      words: [
+        {
+          value: "Đ",
+          visible: false,
+        },
+        {
+          value: "O",
+          visible: false,
+        },
+        {
+          value: "A",
+          visible: false,
+        },
+        {
+          value: "N",
           visible: false,
         },
         {
@@ -380,47 +363,51 @@ export default function Home() {
       ],
       visible: false,
     },
-    // cau hoi 11
+      /// cau hoi 8
     {
-      positionResult: 1,
+      positionResult: 2,
       words: [
         {
-          value: "T",
+          value: "K",
           visible: false,
         },
         {
-          value: "R",
+          value: "Y",
           visible: false,
         },
         {
-          value: "A",
+          value: "N",
+          visible: false,
+        },
+        {
+          value: "I",
+          visible: false,
+        },
+        {
+          value: "E",
           visible: false,
         },
         {
           value: "M",
-          visible: false,
-        },
-        {
-          value: "B",
-          visible: false,
-        },
-        {
-          value: "T",
-          visible: false,
-        },
-        {
-          value: "S",
           visible: false,
         },
       ],
       visible: false,
     },
-    // cau hoi 12
+      // cau hoi 9
     {
-      positionResult: 4,
+      positionResult: 0,
       words: [
         {
-          value: "M",
+          value: "G",
+          visible: false,
+        },
+        {
+          value: "E",
+          visible: false,
+        },
+        {
+          value: "N",
           visible: false,
         },
         {
@@ -428,15 +415,7 @@ export default function Home() {
           visible: false,
         },
         {
-          value: "C",
-          visible: false,
-        },
-        {
-          value: "R",
-          visible: false,
-        },
-        {
-          value: "O",
+          value: "I",
           visible: false,
         },
       ],
@@ -455,6 +434,9 @@ export default function Home() {
     team4: 0,
     team5: 0,
     team6: 0,
+    team7: 0,
+    team8: 0,
+    team9: 0,
   });
   const [play] = useSound('/approved-mission-205.wav');
   const [showALlNumber, setShowAllNumber] = useState(0);
@@ -463,52 +445,40 @@ export default function Home() {
   const questions = [
     {
       key: "1",
-      value: "Đây là một loại cáp viễn thông làm bằng thủy tinh hoặc nhựa, sử dụng ánh sáng để truyền tín hiệu và mạng"
+      value: "Khái niệm nào mô tả việc áp dụng công nghệ số vào mọi lĩnh vực trong doanh nghiệp nhằm tạo ra những giá trị mới và nâng cao hiệu quả?"
     },
     {
       key: "2",
-      value: "Bộ phận giao thông theo chiều thẳng đứng, nối liền các không gian không cùng cao độ, còn được xem là một bộ phận kết cấu làm việc theo phương ngang là gì?"
+      value: "Hoạt động nào tại TT CNTT giúp nhân viên nâng cao trình độ và cải thiện hiệu suất công việc?"
     },
     {
       key: "3",
-      value: "Là bộ phận kết cấu chịu lực bên trên lỗ cửa sổ hoặc cửa đi, có tác dụng đỡ phần tường bên trên?"
+      value: "Yếu tố nào giúp bảo vệ hệ thống và dữ liệu khỏi các mối đe dọa mạng trong môi trường CNTT?"
     },
     {
       key: "4",
-      value: "Khi thanh toán 100% giá trị đơn hàng về Tổng công ty thì trạng thái đơn hàng sẽ chuyển qua trạng thái?"
+      value: "Cùng nhau ở TTCNTT chúng ta sẽ?"
     },
     {
       key: "5",
-      value: "Nhân viên Quản lý dịch vụ kỹ thuật được gọi tắt là?"
+      value: "Đến với Viettel điều chúng ta được đào tạo nội dung gì đầu tiên?"
     },
     {
       key: "6",
-      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS, KPIs thời gian 20 ngày (từ khi triển khai thi công đến khi công trình đồng bộ hạ tầng) áp dụng cho loại hình trạm BTS nào?"
+      value: "Chìa khóa nào giúp tăng cường hiệu suất làm việc và giảm thiểu lãng phí tài nguyên trong các dự án công nghệ?"
     },
     {
       key: "7",
-      value: "Theo quy trình QT.VCC.MK.2.20.5, Hợp đồng thuê vị trí được phê duyệt trên phần mềm nào?"
+      value: "Điều gì tạo nên sức mạnh tập thể và sự hợp tác hiệu quả giữa các thành viên trong TT CNTT?"
     },
     {
       key: "8",
-      value: "Thiết bị để chuyên di chuyển, thồ, chở những vật liệu xây dựng như vôi, vữa, gạch, đá?"
+      value: "Những chuyến đi chơi, sự kiện hay hoạt động mà chúng ta sẽ không bao giờ quên gọi là gì?"
     },
     {
       key: "9",
-      value: "Phòng/ban nào thuộc Tổng Công ty thực hiện đối soát vật tư Tổng Công ty xuất ra công trình với các Chi nhánh Công trình Viettel tỉnh/thành phố"
+      value: "Trí tuệ nhân tạo thế hệ mới giúp chúng ta coding hiệu quả hơn mỗi ngày đang sử dụng công nghệ gì?"
     },
-    {
-      key: "10",
-      value: "Khoảng thời gian kể từ khi xi măng và cốt liệu trộn với nước đến khi hỗn hợp bê tông đạt cường độ theo quy ước là gì?"
-    },
-    {
-      key: "11",
-      value: "Hệ thống thu, phát sóng di động, thường dùng trong ngành truyền thông các thiết bị di động mạng viễn thông"
-    },
-    {
-      key: "12",
-      value: "Theo QT.VCC.MK.2.20.5, đối với các trạm BTS trên mái, KPIs thời gian 30 ngày (từ khi triển khai thi công đến khi công trình đồng bộ hạ tầng) áp dụng cho loại hình trạm BTS nào?"
-    }
   ];
 
   function showAll() {
@@ -615,17 +585,18 @@ export default function Home() {
         </div>
         <div
           onClick={showAll}
-          className={`h-[46px] w-[350px] flex justify-center items-center cursor-pointer my-[2px] text-white
-              bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded`}>
+          className={`h-[46px] w-[350px] flex justify-center items-center cursor-pointer my-[2px] 
+    bg-[#46466E] text-white font-semibold hover:bg-gray-800 hover:text-white 
+    py-2 px-4 border border-white hover:border-transparent rounded`}>
           Hiển thị đáp án
         </div>
         <div className="absolute right-0 top-0 h-full flex flex-col justify-center pb-[46px]">
           {rows.map((row, index) => {
             return (
               <div className={`h-[46px] flex justify-center items-center cursor-pointer my-[2px]
-                bg-transparent hover:bg-blue-500 ${question == index ? 'text-white' : 'text-gray-400'} font-semibold hover:text-white py-2 px-4 border-2 
-                ${question == index ? 'border-white' : 'border-gray-500'}
-                 hover:border-transparent rounded`}
+                bg-[#46466E] hover:bg-yellow-400 ${question == index ? 'text-white' : 'text-white'} font-semibold hover:text-red-600 py-2 px-4 border-2 
+                ${question == index ? 'border-red-400' : 'border-red-300'}
+                 hover:border-red-600 rounded`}
                    onClick={() => {
                      if (question == index) {
                        setRows(rows.map((r, idx) => {
